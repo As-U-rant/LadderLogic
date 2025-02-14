@@ -1,0 +1,4565 @@
+// Options: Export entire program; Code Block delimiter instructions;
+// Formatted Rung Comments; Element Documentation Database; System Configuration;
+// Memory Configuration/Devices with Built-In Types and User Add-Ons;
+// use Element names (no NickNames); rung/address annotations;
+// <SPACE> parameter delimiter; 
+// Write/overwrite file C:\projects\DoMoreDesigner\STS_ShrinkWrap.txt
+
+PLC BX-DM1E-36ED13-D
+
+// Do not modify SYS_CONFIG block!
+#BEGIN SYS_CONFIG
+c6d2dc47ee9ea7554f99dedd4bb748fd5a1e2beea37605b3a199ab610f6f7a5593c4f302558ad873
+aafaa0a9d63cebffb511daa2a42077b4c8a40ac79cec0559c18c4163ec5c9be07dc5bd9c909eb364
+f9f4d37a76cdb9fc98359d1eb3c261277ccb6302dfd3a54f8195788eb70c99e1d9bd92a8131dd6a0
+19e50ad5b5e52b6bf692fbc031d9649451d484b0b49cb9ae24adb5e1f5ebfa10d5fef28a285827fc
+b942e6afd5247676b2a5602454f398bce37736bd6f658014f21258cc3ba39a85ac4134ddacad551b
+b7bc141b2eaa141cfada041c167ddd3d79c093e2aefb0b1bb3a1be673a6ad2fe635370fb132fa214
+e270fd7b1807b06f240319a4885625d4510b99f533573d2b9d15125801b67949c5c74bcb184f5f24
+218b6092540312dd81b64c950551475391abbaaa8985b8e73301cfda4fee512db0cb17933adfbee9
+c1f168023c2ca98747a69d6e16b67f8c66474f1a62a9bbe11e4824451e55f42c6279a7b224578233
+6702ef24bb1b70bc40d61e5b20a38443c6a326e696c33cc2b7df4f0a070d1a8fb11e0aaf2552d2bd
+a14fb13888511c130a9fe24e5e9c61906a2f2d2c9747ead1e99846d21c75657d9406b4ff7cd4d925
+d9f5a856f2fcea7bd6f81b9e228fc71610724e62dc279bcdc3c1041e673925745fb2d6bbb1dbf789
+026ad6c8289b764814fab2ec04026f26034399d5a107e43eb40379be1bb2d02422f673bddc77985b
+0e11f296e5b534c33a9c6ca194f7899e9460b3829cde7517745c22e7242f7a6f4285c7ada7835e2b
+8b2fe837bbb539583b8a4b656d9ce101fc3b57ffffa243224ab13e78bc925a2d7eeb72bc10bc23c8
+7ce89b052fb0a587e8c9b0b472b7f7e38f4399ce805bae73bd771732272100310dee33043586fc96
+aeb17daec44191aa06a912892fd422ea12f294e9a44909dfe05a93361dc4ffcbcd40c84f94b14954
+fd9c12d722d205b4ee1ab0b158c63d1ca13bca4efd116b681bba89d0aacf29c600d0ea1185cf35eb
+8df60d96a7b0974e6d030ce71093507121d7a3ed195106bb3d2588dfe9137521b95088da1cca7010
+70e294e42d8d99ff601cba4eab15e8d591514298ce2f2e9c3cc4dd2adfc32af11d90acc039ec00d4
+3161d0e92740d5cc418dc6ffdcfaaf837eed2ccfa048f43bc74bd82cdf2090d3e234e2b85d0ed4df
+ef5f8af8178a37744d04ef86f06d67fd0e40185857cb3a782168d7f9358a6003b56cdd0963387be5
+26f7ebaad73f62fc4eb7405f4f01e7075c02b6b6d399e101fff0133003b6d946dc48c53cf056717b
+11bc753fb7e0c32b1cf95de40352b2ad0ae7f78a021bfe96bbce3154adc8f96acf33eb40c6cc9e18
+401cadd287343ca34dc0a0494c66b0c64397c22b565637686cf63a03e6ac6e639088d0097a630d8f
+4610ddfc9989850b8da2c5e1a25e3792658a65654f1ee40ee85bc4db2a37f0d047355e1ddd75ef46
+d6f37cecb88c83206959a1aa3269072c553709f891490d517df051cfec1daefbb563a032d08040a5
+96ca1b2438881c040f5adc8f47031595b4f45262679d046ba0adcc4c18b812e835b599fb5de3dd6a
+b33e27c91650ce228ce1a5d266289e24a4f93d40098ee9fa01e726d2a5cc6902715d7d86be37bffd
+4e8a77383578e77599d2234c9716b55e9b9500d3924576b764f220e72ccae409dcc8f068631c2d76
+701ec0de63305c371d4de622a7d8dc7c76fc9b5dab2215f3bb822570bc47a9289c22097f61f2476f
+ab3ec05db5bbfe51dd226c40423d7b461b5c4efa7fbbf5f7a23a902519bd38ebd5bf9a0cb2266dce
+786a0de4141540fab0a1e5cabcf1157c59cff1d4cc3ea91d985cf27f54cbf7dd4307a6c6f6219c93
+06786b8cd67c15b69f453d40c7fd22c784b1a651d014931e7af0a1ac006a16d80a812840ce4d57e8
+bb93b4c21ddb6ea9268811ddaec3f53d629d4b7bc3a207d4b58732d4d68ee47bd95f0a414ce2837d
+69babf30d0b4bdd7e6078e1b21854ab6596424ccda8bee4934e57b6c5c25c0b698b8a44ca2c03737
+a276b15f045bc356bf569a643706d8c414a9b29f2f694a64d310cf5529cfb5d68d59d1c2f9633953
+5b644ee49b93ad4a438b032c1263710924dff7fc82de50edee3a9e2b388a4181fd1392ec5b112579
+452f07cbb4b17fb0e85acf0f4a480b2aeb01cb35e573b7fbcccbd3ca07c8d08eb9b34ca5b25baf47
+842c990fcbc5a98e25b8d7175c04857c445e2aa3847af726ed674fcddaffe75a41ccab3999ad0a13
+16eda8a8b5f9fce1da9c6d0bea629914d5de55bd3e298ced08a2f975cf84e46182312ebcc574bf3b
+bdd19195d50f6de404dbea0450c894dd0491809378a50ad48ec88288faf5eb489ca4a05ed41b6553
+4e15960ef709de0bbbf49653a608e598006afeacab39f4b122ef06303be390509fa74f63babb8159
+60f2c88cc5ebfa772cee65fb82049d0b18cc53eb9eb6d90971b1c5023009e167828000826e6b0d9a
+bcc8ee8851fe5113c4ebdc1a8dc6f5ec6c8eb5d03c432dd3c6aa77615a830b221a9298f640168f9a
+6ed8813178402dd28b854e23f7c34fa7649e37d5a547f0141104f82bc0b224418a6cc62da33223ed
+7d0f5491c46fb54950512bd1542ffa06fd14d5de550db7e235bd611bbaaf999d23e57118bbb608ac
+8b42e4965c24a9c3dd7813c0e8bbababb7b703740364657e68660666dc19a9189f021672fe77bd80
+2fb80112480b8df09e04c325ac7e31705375e8ab873ed73d8c86bc448d6bda42fd531194b3a7ecde
+bc6259a121405e45945a7ac6e03fca761c6f69f91e274bf9f8f4abd5670878faefd2245d3527bf29
+6e924e1d3f6f4edf8ec90a323a9816e1988e94d9fa42bb5f42a85a6d9e9d6efbbab6aa6f21c50b48
+67eb0fb8439192df4066d60181cc08b062b1667a1e519b90569b58fd584ba53e4c69ca555e500737
+7c46ff1d10f6e44c65ed93d9ee93069edbcadc6ca37c10338aaf9450b719d2c3ef854177382d071f
+aa40e3bc8619db8a9902fd8980bbf113aed8f44ec342afe9424f7c0388da147e8123aeea162eb91c
+01f6e3d4e9a564335ebe7369c2ec7711fdc06e7b291544b16b4a8c6fe5ac1eecb8b679b2b896b784
+0a7d62429a262f01729243d7c7c896a330ae6f141a6ee6c5b7b839b3993db9a27c8b8bc9561a881f
+fe990ac3882321b9b57194b1d0a497ce0750da78430a41243df84b3db2ea277b5e9f11b00978ab93
+579f3683f48ddd63138610f856329da4e60822e40058beb59d88b006fbd4db486ca326a007dd3109
+d36550b6c4f524c1f03ee7ccebe2ea60033692116b85af6995faa50cea77e22f6025e7a9e3de443f
+1e62617d32e666e2ba83aee3776e7b06abd9ebb6fd4d0690b9f29bf58b9fc11cfac7a31eaf34d61e
+c89b641c5ec6f02b0bc0fab21184f7a2456e7509dbdb32940cb1b8766bd1904f893c13b1197aea6a
+dda90c12ffa059075420db1105dce6ae0d780887eb69d98d0d045a895ef92dbda6abaf0db17fe091
+c79cd493290570f29e7b5b28ca7a2c4d4aa675a6574469c2f0e0f2ca9f3035cb419775a2b50f78a7
+71da5099d26378140b451095e2cd0aedc88a7b248119fb7c99b36b75b36f6b22b29a2e60e78b6ad6
+aec2d3315ae86a108dd62687c81c9c800e45c1753871aff968cc8bb9a105999606a62d83ad78bec8
+3cfb8979bb800892228391cdad4758d0041ed479279135e9472d5918580633d4fd09cb323aa996ac
+8b811faca308946daf574a33535aac0f4b14ce231e242be09350a47391a6bcdc0771148606777ccc
+d7bbdc102369a084661afb944ae81f29e28938379c807c8a21a93383223125ca6bf77a8874e728d9
+f1fc0c38d8112af41c21e086938d23dd77c0eebaecdb886bdf92db2573d21bb6e8de7cd465ff8a69
+e3bfb14a59687658a452a4d9eacf4c6f978506a9ff491ad4792771dadcd211d62e53dd517c621885
+de2f2edb31042aa1de4706e23e2d9b341e615fe8c0fdd4f5024608105abd9460c23bef7c43795e55
+fb7b019c37c0ec7f7f2666eda61e0c8f2080d6877c0aadb3ab873fd2eb9b0c676fd10ce92e9c6f99
+517f2b7db447f1a33c15ca1e24e5df873aa2b29440fcf178906db3e439f20f7cbb2a2a7333b4ff5f
+4dce61e9ff5d14a169bee89dfc8bc95be803d01ced55d8f664adbfd1c5e1a45170458825bf50d814
+e54f1cd3e660c7bec4230de1ec3a6748f19ea666fb6a60b305ba1b5dae428518590189d95d4dd324
+6db639b47f90818177af6bc16ee35991e44f569cc59de64806b0f84d0b92deee702bcd548abd3d42
+ea5b3607ed0ff3bbd0ff0ddcaacb72585b27f5f5dc6231f556f99187f19dff0c76dddb24cb8af434
+3f3f4694fcb83ab8c21b5e16c48417c8eee7d8ec1ce08180a3e985f738fb20c2351f946ca33a8790
+54fef7ad0fb779f68718a9a503b3688239f36867ced2295fd8a487a20efdcbafda9bca0692458f3e
+16db2b2ff173c318da61ab313e978b7e8829605dbaed7bfe4363da337748a02d555532eee5c4bce1
+50adb84874c73cd347a1895c7df4fc3c74fd6d6e7100e2ca58aace668280a168f0f7c30e8f1fe425
+c37d3abfb1e93068946b711e23011a042fbfc2421878c7a813587855b35076ee48e9f23c0e8bfd5b
+eab6f9d80e56f947667de8ee9f2a545b8c1332eaadddcde2766395dfb678d5c2820d59699c6aa9e5
+4a4e627df6bda7e3cd8e44fb30686db91298ab697da36b89673e8370e1cec34dfd13f7c3dc5ce041
+079a5a9ca79a318a6e68d82e8f524acad4a3c1cca6ad3c561959f329e63b2634f4758977dccc8c2e
+aee4412c464c8eb9d125ea372a582823bc80b42a3dbbe77b8aaec7a7fc3c7022c3ba2a76c4d66249
+304732b00542c19358f14e209cfd34676a5f8699aa0e407562eb68d82de0fabfe6f1961c1ea451be
+7c0088bc2ab0719058f06a15ce3174bf795e7cbfee8596eb6357a1c6fa688800224db1c4bbaebb6e
+02fcd0b27633ce260feb92c284874c860061ab0f14de6800c3f6996eb6f6bc42bcf0f738d806943e
+c010e656a1dbbd1aa47942ceb778983809ff8deeca1fae0a49d33459e9fcaef1a7f0d797c383df57
+03dd77d9f69cf7d107b2a4e14119b1800f5c662fcd058e755ca767454ba19200c27a66981e919a87
+d9a1eb0f8f11c133332f5e20d668ba5ff333163c00f1d17ceccb3ddd656acb2295028070aa8aaeb5
+9a326fe9c9c4fda4b545463bd42b266c9d386c6eebdb17293839c5706c3104e64ef1b17ed831e2f4
+5da353a2f622be2f9ff803c33b293e1c9b4eb35a61b1bf3a620ee9e55f41f9778b0a9dcdedae9a25
+6843ef0d817abf1efd2e930214b74f3d8595901278fe5fd8a3496abe273eb04ef90010f04cc0e6af
+41c0dd2f20e4fc7e2d3e0e3fed42fd41deb1a1124381fe7f6a933cbab7afa7629e6c29e638699b4f
+9479dd60dad46497fff1fe7bc4e28d8905ea9c3991e4cf968e5913a9cb454ccc26c050d550283a2e
+cf0ab054efa43df5ea7fff7f39d27e53d9b32511d10ca203cdcff9398423b6db0fe3470e1e8275e9
+ed0c98ee24d9d04469c75b7c27477e686c337f0ef106909a4a31e19cc8c1e0350a4194cb7e3b012f
+3f0a59eceb9ba449282fb9b37d81ff6345056455336371db6b2e360cde18511e97157179bf5c04d0
+19cb05180df8149a06904f04b6158d3bb6c10ef37edfa1321173e4f63f1ce1dd781dff6946e68eb2
+3924ffa6e32c825876f4299c41dab6059ce17dec5a1131435b9feee998c70d51204853b567beadfd
+46571a6a944c0bfc6bc0a8bcd59cbec10567b5c31a9f19b58711f9cb6b3c5d56acef20b4c6b92d47
+3ae10d396d5555ce569ab931d4096bf19ff9aac9528c3285839752b565f0f63330b4212067a88d56
+9e8a812d6669bc581261d90c695ba0a37605ef405bf53339d37b6fd4b38762ea441f26df225fa76c
+a48d8e3025607c70eb2b4c4065600292745d8de64e3b1d834714fabb8b8d1e54b273c984440bd6c2
+1fdf7cd6c1bec5a42c943e91273e04ef48d620dcf500a5afcb61aab46a6fe2b54951c75ab4b0dfdb
+c686827bc515fb6fea3f00cd44b96aeae9ff7afa0dc1d8762399b03b14ef7f864dd13778de3f8b0e
+57db2c3bd865622ed6ac1d255e0c17310ef5b135de76c221b764ce1ec19861b590978137a32b0bd2
+19554f4b36e0774c58f1259eddd68672a46e4bd18ab18b63c3804dd8cef70f7709f3cd475bf5f6ee
+8dd6091bf8e83c6c03469da5cddde8f7b96f28c740ef47a2aa0ecc29235f5e3099ac9274bae5cddc
+fd6dcadcb47995c21147e3678eb4c85c137a8cc6e214f7c6da9a0b9eec27219da83a0fa141e08d2e
+0d8fe133966e8b7e61c88a1f22aa135ca2c5d47007428fd0782ff8dc6a891f7872f345b9b61bf4fa
+e82316f3cf9f2007edb18ba2af620ca12319ec1af6a625b19fdc2d58904302267944caaed1ee18e6
+d0fabb53047a9214716ef1f7b43dfa2f19397c429c1059996076ac3eca66145f73e6ff765f8719d2
+efbbe80d44bf8b8b321561ae05cc1ae4605364ba08afc1c197733a0870b82f62ed23c1d907717d34
+206d0858630fdae23a1adc40f4b69521bc39a02a86a52fe55072680e6eff46117676157cbc4bf3b9
+7a42898fe909205156573386e9063f0ec5b8aa2304217fc9ce1e044830ccb4009af918e0258c8a18
+4e17dc9c17611a0f01675622ed026b4d8f83cafeb1e924565ae1ce6980f15ae92ed4509826ae582d
+23ea1616dd27a63ccd59a442b3cec8bf21a9028dfd0363a72d05ce34d500b0bf48ace946ab16caaf
+d9c185c1faced9fe9c36d5b4bbbccd19f859b2b7cb97592fa6d620c91a6da695cf98e338914ef192
+0ccf35e73282cdf713ce608df0e89781d1d644899426c32af4aa6a357c4623b484aacf1e715fbf64
+9539bc0170bc7586184186878527991f3bce85533de7d5a126969f53d1ae51e4a22e485e62d1453a
+42cf7f17a11cef59f92e71e2e67847cb71fb6fcef6c118160537708958de3243917153f501ad8c74
+fe5179b1c5ed13791430cd4ebba355b17c75a162487463b36c6f2d58d4a5f2bb9e1597649298cb49
+4a7b528102563e1bc604d8b0ed418c0d81ba284075cf8cc360eee4f95f6e36823d581039042aea77
+a38ffdea6899854e1f1a5b4638986d57532b65c427a9afa39d2fda75e592ae80d5c60d95edc352fc
+1576f84e8a21e837441a2ff1da07e7574d1166becc6b936e012ab3acddc482eec72622ff0c19cb74
+b8f172ab6fd8c5288bb99b00f6990aea7645d1d3bbe87ea079bda5adeceaab4e9b59bcf18cfa0a04
+37817074c59766a32b01f1d9c3b42986f57e3010600934e1eeae2f895a54dddb8169d2aa0e879f40
+8027f4ef612610fcb76021c543b7d5b6f41a85e5d6b3b883b791fc761d559788cf3620e239997125
+bf5504f5a21f700ab2bab56a343bf2e3df43657880684e84ea793f9d5ae326ad689b0188e08c7ecd
+ff205248c2f980e38090081145ba4a45fef3f78603d6cdf8a328644d5e33e7450e1df2799a773ecc
+64e513892a5d121cc5e41ac0e34f0d6c9def09577749586bc4264efc9a207bf4ecf96faa8adb5671
+7fc27dc55bbea4b4a2e122b382c658bc9cf524bd41374633845c608619baad4f76d436de2843b7bb
+fa2c4db4516e38327c576d53c605712e9d20660a91bdbd0d2b0aaa684f4a9e2beb7502bc2e800fd0
+ffdf5c3fe4361b31b4cf26aacfe818fb03dac6e01e524d101c18cd9650b5f39753353a00425fd4db
+9594965a9e86fd41f018bd3f927c752abed81847b2b3e1bf24ba3d24a421c3536c95e8611fafe8ad
+0b9e349c334fadeb4b041ba15e3571e86042fa020e885ec3cd6c10c887162673308b0b71dd73a162
+3b9d51a8cd6111fbcc074480768a0f44fe53d16d02c7cbd9f794693aa80b24a83bcb3db5e5188698
+46bf0400c8b6fa39e7a1db20c6c28e332da90728f98b1822114b21d23c094b0a7e620cabf34fa7ad
+5b7d983c2ae5d2cc6bad0623691f9e09ad01125f676ad662f0266e0e509c92eba8fd17786ab994d2
+611ead88d3652fe38e8060ceddc9d31c560383bca303ee5b3c3ea08b6592e46ffa8ce29988fe4156
+056e3b6d64e6f9ad9be93ccd9a093b60060a67731bf5ee3518f75f3a2976ebbfec64c43260cbaef4
+e482b81f5722090c1c192d42e1ba6e23efd0a5a6cfcbd643e0a1c27a58502cd916b409ca8ce59b13
+3650c17611ccaa48679a26df7b091ef7022c9775180e74a0c0f064503f8033d9ee30e7df8479a72c
+ff1a40a71ddac5ff621421c8977ff9afd84dbeed5720982a02e8f0201db7a38c1dcb30a7a2c2482e
+e48c8fc358928fa0076cf9909ad09c1d51e8d05e0917c90f98524fb17f01eea3ca9bd0179a386ae7
+fa2edb3bdc6f645c37c649c249b3db7ce850bf2b8f3112b326ed9d826f454bfe8b7563b2b58fe099
+a63e04ec26819711c74aaaffa2daee333daf0af1cd8c9be2d33572568e4cb1824ee81fc8f66c63c9
+c86e8d48ddd0045570e88ff12920bf05c601e153389f4e4f3276cb43647980c4e262dcba1bed2ea7
+45ec28753e9555794188a7d53d4bdeb458fbd67ec52c4c3110769e1b0f2612dc51be6141134dd0ea
+45f5098c77ee9724319e5ae072cb5e03c6b4dc19460376e77aee89290aaf50876609dc2b533502cf
+defeed9aeda91362156b2937cb851a13ac7b8843b053523f49cd8df9da2085065101cec738f909ad
+709b6e373144814dd4621a9863c68d029956dfee0b356aa017a1c64921db6cf6332e5a0e76e5cc6f
+72ae03c9e8629ef0a730b43da1d74c4d81721948143b28f2fcd240d6f6140fc4122ab7033340fe81
+7fbacb5dccafafe0678467f1ee2a178cbfc22194c4c52c7e7021c36a4cdf0cabe9524b7e2f830f4f
+6fe778a98b8538a0847661c72cc9c6a23eb9b3b410bfe0d123112d8f4a8549286186ed27c3e9e44b
+e5f493b6e2cc9998f0772a9a934f17f0e9df5da7760cdb958d980d743de28abde5313e44b195cc1e
+be56a0ec3aa2db2113b10733d7212d7d6dc9e70e704db96672b3fd503639ab6057bec5b7e6e6b804
+33cc8a047a3b990f2453ea45c62601f11686db5c06b117ef71e5c7d9c105ca8eaf36f13063cd827c
+a48a249388f6f227925e7c23778778417541723ce166b14d3c86f0e0d23ed15b3d24726a8bdc3b10
+0c44c37c07d917201100042457b83c5201dd5bf658656bad56f21c0a53e2825ab24102540453545b
+955c07fb6e9d4b1bbbb0181e884559eefc694b9491c13dd8dbbe3234ace20d0cd1276aa6e63f90f6
+aae33695b8d32708f2fe9e68270117bebd54f9b8db711f6388d89ff6c4d48d40686763b2deac5775
+d76697faa83f85cb62023a9c5ee6ea36f372d12c01aafb0ff2f12f8925d9de851f1f543c4cca86a1
+8f228faf75b45764083df81d1900738cefbda1a1c82908f084beae2c5559f7feb5844678500a1785
+836be2bfed2ac4fe6072da6736a00618fc21f188952e634e6bba10f365893a453d288a54cdc3abdd
+4cee30582f22fc00f7a224165db6c9781fd9ac703d0d308c928307ac31dee51a0676d6d141fcb975
+5c76c026cbc33dcd174f5359f496bb38a0f59802c205b1ebea0273f01c064b98429cacc658af3c55
+7afdf934d7da25fcbc0dbe003743e273ba0d9332817d15295e538ba72d0dfb906d9cfb2fe0b25dba
+8a23c9f6ba55d318d6e6ca9a2bc2e71b0a725f780f43737485102d51dc5082932d78a209f037046e
+660e0b94494cfe030386c7db098bb49edc05dabefb6abb79996af06e1582d1f6f5b6d2fd30c8643e
+0839dbd051f71f9bbd870b8875cb35b286a679b7b55ad3f43d3d84076ddcf19b9cfbac22a2dd6125
+4a944546a7dca50e5026104968b7c6fa91e8bf2992a50522cbae22bdfdc1ebaa6125cfc4e836cec6
+f1b64208aaa508860a1d5e527e9a1f4d0c21b3ba85efc172b0da44bc1d19ec9c0da80941a5ed900d
+b58f468af15490928a1253d2bac3ea8a30f54fed3d2f9b5a04910bc14749497547ed5c34078562dd
+04d39c90542b513060cc663cdd0297161a7724bd36489d85501625d3c9835d3f737e2d410f092467
+333e838939a4f1cef4c202e7f04ea2d5f80e4bb8c0309c8868369f7c5fb39e4c5132aad94158209d
+6ad4288ff532327ec99e7f8c1afe6a2d9dfa9217aed3744f30ca6e3bcc6adf18841a196696784bd5
+a72acfc6bdf297e9bf03439ed2c1634c68f83103e7a297f3b773f0cfb307955f9634874acad8416a
+9baeac67dd5bf68062a4100ecd8cce59c547e51e62c7e5510cbac86de0437ae37b10b5c8b5c40449
+0837acc295bb15107a059abda87305f135ebb464f8a5aeb2ff29c29dcfed75cc6c8030fa09b76f66
+d5d618f6aae0af2fe3cad4e5eb681a20281e2104cc6cf99cbc1b288ea21e8f26d476f2e9190dce02
+7df12bf550bc43ecdd8437f6a6788e12ad81b0926fa6eb25919cbfa81140bd631dc1436f3d45965a
+066a84baa4549ad07e832a9835f56fd91e5a58c30400cef6094fbff0260419c649df8646b6679dac
+ad34830df5a87001b54604cda6e62bd257d632173ee1d709c8597072cf1f2aed8bc6f3e67bdaccef
+0a0cf0f11a8e50719a9320ec3224a0a8de29d44e56017e63c38d78ff202d757e6d0085e7032d29ad
+cd3934b784ff71081f2af66772ea58e303e3c1f2ab64b1221347d02395b7deb1f3a0245edc452440
+2e1f2de3b07362319d4b3942950a56c81857443a17382f684c921b3642e031728014b30996cfdec6
+ea79d40d040393f1bf2018675cd8884a947d30b5253ae4988de7a1b3bd7892626a0033650efde81d
+8b62158e9709192a695de650ed57af14af7048d45ad93b6a858a5fb2c907e5ae944549aafbe8a6db
+2b93d37d4b4eff1c0a849f6265ffee0ab50c8d3fc0be06314374dec22bde1cc129b3ff448e5edfba
+95ba8086916c55942ebf0645f3d14214ed118776540c0df03414c165854f573fc12c53e143934fd0
+8bd084cdf3edaa6822e0f7786b15dffa75ba4e3d570fdd9bc403865e1f721ef37fbed6761683792f
+fb9e8be52b90d8c55aa1d0cd86b35411335cff7ad8a201540a5ef54fc25c303b9da126bc7d21d0d1
+a73388c5d6ecfbe857ffe379780b25fbb3768720aca7a6245636eec0864dd13f32c845f1480bd9d8
+9f1896d2fb9ab176436d0d32a3f363f6e989f66d078e415beea3502ae223548294d2dc3b3492bf0a
+71444e87fe11afa342b7839df41207681c9d5e23eedf9e324edceb154f72ec34ccc35417885ab0af
+bddf234909e5f215a13644bb5d74bc3e68c6aab878cfc30419fb47d5654109e53d8ebcabdfba3923
+cce982acec5e875c41ff86dc3e8294957868555cc51a866bcee0fd9991203246395aeec5242309b7
+266f68bed4f32efb0ffa562bb90f4ab7ea348aafd47555d8e8d0a8a0b1afb2e27516fecf459007f1
+5b87a1b6ed74de156f088b7fb498ce552ecb75394cf9b6c376576158a049e2379a2eaf2437132bc6
+62b7154f26cfb808072e6a1b86b9b3c1b06faadbc1dc519c358053f5d382fd57d06400a205c75c25
+d239675c03c3a82e4a9325482dd22741dd0c6ee904fb59e43dcaccac53fc8c80d8d72958da20d3d6
+ad38d43ac629f813bfdd92396be7834c4d5301d03d2da6240ab76706fc40937e3a04a7d8a4292e4d
+9dfe7692453c6925fd8a89599b2f8cbb0431ed319381056d1e5bfe891dc8b82da95e459df7d819d5
+5a0ad03782ac56c938de3360f502ea3e1c5c65fa236ae656a54c980b53aaa0b5d16e57e40b3fd8d6
+bce8ba4852bce4
+#END
+
+#BEGIN DEVICE
+ @LocalIOMaster, 12, 27
+ @RamFS, 1, 1
+ @SDCardFS, 25, 1
+ @UserLog, 7, 11
+ @IntEthernet, 4, 2
+ @DMLogger, 5, 10
+ @IntModTCPClient, 9, 14, 1000, 2, 60
+ @IntEIPClient, 22, 31, 1000, 2, 60
+ @IntEthDMPPClient, 23, 32, 50, 250, 2
+ @POM, 24, 33
+ @Axis0, 30, 35
+ @Axis1, 31, 35
+ @Axis2, 32, 35
+ @Axis3, 33, 35
+ @IntSerial, 10, 15
+ @pol, 32769, 8
+ @HsCtrTmr1, 14, 29
+ @HsCtrTmr2, 15, 29
+ @HsCtrTmr3, 16, 29
+#END
+
+#BEGIN MEM_CONFIG
+ X BIT decimal 2048 -1
+ Y BIT decimal 2048 -1
+ WX SWORD decimal 256 -1
+ WY SWORD decimal 256 -1
+ C BIT decimal 2048
+ V UWORD decimal 40000
+ N SWORD decimal 4096
+ D SDWORD decimal 4096
+ R REAL decimal 4096
+ T TIMER decimal 256
+ CT COUNTER decimal 256
+ SS STRING decimal 128
+ SL STRING decimal 64
+ UDT DATETIME decimal 32
+ PL UWORD decimal 256
+ DLX BIT octal 01000 -1
+ DLY BIT octal 01000 -1
+ DLC BIT octal 01000
+ DLV UWORD octal 04000
+ MI BIT decimal 1024
+ MC BIT decimal 1024
+ MIR SWORD decimal 2048
+ MHR SWORD decimal 2048
+ RX REAL decimal 256 -1
+ RY REAL decimal 256 -1
+ PT BIT decimal 256
+ FB BIT decimal 256
+ PTD BIT decimal 608
+ ones BIT decimal 256
+ ptc BIT decimal 512
+ MSG STRING  0
+ ERR STRING  0
+ SysName STRING  0
+ SysDesc STRING  0
+ SerialNum STRING  0
+ PartNum STRING  0
+ PID_0 PID  0
+ PID_1 PID  0
+ PID_2 PID  0
+ FILE_1 FILE_HANDLE  0
+ TrackPackage INTERRUPT  0
+ MainSequencing PROGRAM  0 -1
+ Simulate <Virtual>  0
+ TempControl PROGRAM  0 -1
+ RecipeAndSDcard PROGRAM  0 -1
+ TimeDate PROGRAM  0 -1
+ CountsHoursTach PROGRAM  0 -1
+ OptInfdGate17 PROGRAM  0 -1
+ ClosingConv17 PROGRAM  0 -1
+ FilmFeed17 PROGRAM  0 -1
+ HMIandMessaging PROGRAM  0 -1
+ ConvCalibration PROGRAM  0 -1
+ Servo PROGRAM  0 -1
+ RunThroughMode PROGRAM  0 -1
+ copy PROGRAM  0 -1
+ ModbusComms PROGRAM  0
+#END
+
+// Code Block TrackPackage cannot be exported
+
+// Code Block Simulate cannot be exported
+
+// Beginning of Code Block $tFirstScan
+$TSK $tFirstScan
+
+// Rung $tFirstScan#1
+// Offset 0
+NOP
+
+// End of Code Block $tFirstScan
+$TSKEND $tFirstScan
+
+// Beginning of Code Block $tTopOfScan
+$TSK $tTopOfScan
+
+// Rung $tTopOfScan#1
+// Offset 0
+STR ST0
+RST C613
+
+// Rung $tTopOfScan#2
+// Offset 2
+STR ST0
+RST C759
+
+// Rung $tTopOfScan#3
+// Offset 4
+STRN C759
+GOTO 1
+
+// Rung $tTopOfScan#4
+// Offset 7
+STR C728
+OUT X28
+
+// Rung $tTopOfScan#5
+// Offset 9
+STRN C742
+MOVE 10001 WX0
+
+// Rung $tTopOfScan#6
+// Offset 12
+STR C743
+MOVE 32767 WX0
+
+// Rung $tTopOfScan#7
+// Offset 15
+STRN C744
+MOVE 10019 WX1
+
+// Rung $tTopOfScan#8
+// Offset 18
+STR C745
+MOVE 32767 WX1
+
+// Rung $tTopOfScan#9
+// Offset 21
+STRNE V2260 0
+ANDNE V2261 0
+MOVE 0 CT24.Acc
+
+// Rung $tTopOfScan#10
+// Offset 31
+STRN C758
+OUT X17
+
+// Rung $tTopOfScan#11
+// Offset 33
+STR ST1
+MATH D731 "R117 * 10"
+
+// Rung $tTopOfScan#12
+// Offset 42
+STRGE D731 V2112
+ANDN C755
+OUT X3
+
+// Rung $tTopOfScan#13
+// Offset 48
+STRN Y13
+ANDN C752
+OR C753
+OUT X12
+
+// Rung $tTopOfScan#14
+// Offset 52
+STR Y13
+ANDN C732
+OR C756
+OUT X13
+
+// Rung $tTopOfScan#15
+// Offset 56
+STR Y5
+TMR T248 20
+
+// Rung $tTopOfScan#16
+// Offset 59
+STRN Y5
+TMR T249 20
+
+// Rung $tTopOfScan#17
+// Offset 62
+STRGE T248.Acc 6
+ANDLE T248.Acc 14
+STRGE T249.Acc 6
+ANDLE T249.Acc 14
+ORSTR
+ANDN C733
+OR C757
+OUT X16
+
+// Rung $tTopOfScan#18
+// Offset 82
+STR C740
+OUT X19
+
+// Rung $tTopOfScan#19
+// Offset 84
+STR Y19
+OUT X5
+
+// Rung $tTopOfScan#20
+// Offset 86
+STR C741
+OUT X6
+OUT X7
+
+// Rung $tTopOfScan#21
+// Offset 89
+STR C730
+OUT X14
+
+// Rung $tTopOfScan#22
+// Offset 91
+STR C738
+OUT X4
+
+// Rung $tTopOfScan#23
+// Offset 93
+STR C731
+OUT X15
+
+// Rung $tTopOfScan#24
+// Offset 95
+STR Y5
+ANDLT D730 20
+MATH D730 "D730 + 1"
+
+// Rung $tTopOfScan#25
+// Offset 108
+STRN Y5
+ANDGT D730 0
+MATH D730 "D730 - 1"
+
+// Rung $tTopOfScan#26
+// Offset 121
+STRGT D730 12
+OR C724
+ANDN C725
+ANDN C715
+ANDN C714
+OUT X11
+
+// Rung $tTopOfScan#27
+// Offset 130
+STR C718
+SET C716
+SET C726
+
+// Rung $tTopOfScan#28
+// Offset 133
+STRGT D730 18
+STRGT D730 4
+AND C725
+ORSTR
+NOT
+ANDN C726
+OR C727
+OR C714
+OUT X9
+
+// Rung $tTopOfScan#29
+// Offset 148
+STRGT D730 18
+STRGT D730 4
+AND C715
+ORSTR
+NOT
+ANDN C716
+OR C717
+OR C714
+OUT X10
+
+// Rung $tTopOfScan#30
+// Offset 163
+STR Y2
+ANDN C739
+SET C729
+
+// Rung $tTopOfScan#31
+// Offset 166
+STR C739
+RST C729
+
+// Rung $tTopOfScan#32
+// Offset 168
+STR C729
+OUT X8
+
+// Rung $tTopOfScan#33
+// Offset 170
+LABEL 1
+
+// End of Code Block $tTopOfScan
+$TSKEND $tTopOfScan
+
+// Beginning of Code Block $Main
+$PRGRM $Main
+
+// Rung $Main#1
+// Offset 0
+STR ST1
+RUN MainSequencing
+
+// Rung $Main#2
+// Offset 3
+STRN ST1
+OUT C124
+
+// Rung $Main#3
+// Offset 5
+END
+
+// End of Code Block $Main
+$PGMEND $Main
+
+// Beginning of Code Block MainSequencing
+$PRGRM MainSequencing
+
+// Rung MainSequencing#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"08/24/23  Fixed issues with auto pause.  Took out t37.dn "
+"from C100 rung when in run through, in rung that controls "
+"y18 (infeed motor), added C100 NC in parellel with "
+"PT[V2370] in C77 branch of rung to make infeed conv stop in "
+"autopause.<br>09/01/23 Fixed issue and made it so if "
+"selected to more than one jam in a row, if manual sealing, "
+"there is only one jam in a row. "
+#END
+
+NOP
+
+// Rung MainSequencing#2
+// Offset 1
+#BEGIN FMT_COMMENT 
+"5/8/23    --rev 011206  added msg for if a manual seal was "
+"made without jam after powerup. tells the operator that a "
+"sensor may be out of adjustment. additional help is screen "
+"114.<br>5/26/23 --- rev 011301 <br> a. Added closing conv "
+"extend prox control and faults.  Using x12 closing conv "
+"extend switch to tell conv when to restart (system delay no "
+"longer needed so parameter moved off hmi screen) <br>b. "
+"Added programming to clear registers R12 and R22 when mcr "
+"is off. We had a<br>"
+"machine glitch out in the field when R12 became NotANum "
+"instead of a real number.<br>"
+"c. Made Run Through Mode act as a Limp Mode where all "
+"faults and control not needed for simple run through are "
+"inhibited when in Run Through Mode.<br>"
+"d. Added graphing and facility to plug in a temporary "
+"encoder to view frequency drive ramp up and down "
+"performane. High speed graphs measured vs what the control "
+"system expects.  Also now displays expected belt movement "
+"when jogging vs temporay encoder. This info is used to set "
+"VFD max Hz.<br>"
+"e. added msg for if a manual seal was made without jam "
+"after powerup. tells the operator that a sensor may be out "
+"of adjustment. additional help is screen 114."
+#END
+
+NOP
+
+// Rung MainSequencing#3
+// Offset 2
+#BEGIN FMT_COMMENT 
+"11/28/22-  improved closing conv head open prox faults.  "
+"Changed fb12 to be<br>"
+"                   ""closing conv head open prox failed on"" "
+"and made a new fb6 for <br>                  prox didnt go "
+"off-on-off when head opened which probably is because<br>"
+"                  center seal manually adjusted too high<br>"
+"01/04/23 - Put debounce timers on drive flt FB15, cs (FB4) "
+"and ss (FB5) <br>                   thermocouple flts to "
+"deal with electrical noise from hole burner<br>"
+"01/14/23 - Added 20 inch conveyor freq drive 20 inch "
+"calibration run feature <br>                - Added 0.5 "
+"inch conveyor freq drive run calibration feature to test<br>"
+"                  that VFDs do not have excessive start "
+"delays.<br>                - Changed from pkg tral to rear "
+"bag length<br>"
+"                - Added parameter called Front Bag Length "
+"to set internally advance<br>"
+"                  run in and stage distance to control "
+"front bag length. Also  <br>                  compensates "
+"for poly advance (poly advance is to break seals loose "
+"<br>                  after seal because poly can touch and "
+"weld back together after a seal.<br>"
+"                - Changed sts mode param ""Cross Seal Power"" "
+"to 66-100%25 instead of <br>                   100-150.<br>"
+"                - Rung 77 of main sequencing added v2124 "
+"(off delay 0.1 in ) to v2200 <br>                  for "
+"v2202 to move point where sequencer steps to step where "
+"infeed <br>"
+"                  stages <br>02/07/23 - updated sequencer, added "
+"eye history after one shot or off delay, minimum gap length "
+"calcs <br>"
+#END
+
+NOP
+
+// Rung MainSequencing#4
+// Offset 3
+#BEGIN FMT_COMMENT 
+"060622 - Added Low film using disch conv movement instead "
+"of an eye<br>080422 -Made Scrap Time out parameter work<br>"
+"              - Fixed issue where msg can say ""press reset"" "
+"while running (C23  <br>                 and  C66)<br>"
+"081622 - Put jumper around safety switch inputs in T19 rung "
+"and the rung after so <br>                 it would not get "
+"caught with C656 stuck on.<br>"
+"               - Updated closing conv fault logic so that "
+"x16 prox has to go from off to<br>"
+"                 on to off to not generate a fault instead "
+"of just off to on.  Need to update  <br>                 "
+"screen fault msg and flt help screen.<br>"
+"               - Added logic to reset c22 (cycle stopping) "
+"and clear PT (package   <br>                 tracking bits "
+"when MCR is off to clear any tracked package when estop "
+"<br>                 is pressed. rung 55 main program<br>"
+"8/18/22  -Recipeand SDcard subroutine rung 19 had error "
+"should write to v2228   <br>                 not v2232<br>"
+"               -Closing conveyor subroutine made several "
+"changes because of fault 10<br>"
+"                during manual seal.<br>"
+"11/22/22 -increased time on closing conv prox fault timer "
+"(t120)from 0.4 to 0.8sec<br>"
+#END
+
+NOP
+
+// Rung MainSequencing#5
+// Offset 4
+#BEGIN FMT_COMMENT 
+"This sets program revision number / date.  The backup file "
+"saved to SD card in PLC  and program revision number shown "
+"in HMI will have this file name.<br> <br>"
+"Notes: <br>1. ""011102080422plc5"" program ""plc5"" refers to "
+"units that were shipped with <br> modular PLCs instead of "
+"Brick style PlCs<br>"
+"2.  On units not brick style plc (individual cards), analog "
+"output configuration is 4-20ma<br> <br>"
+#END
+
+STR ST1
+STRCOPY """011302090123PLC""" SS0 1
+
+// Rung MainSequencing#6
+// Offset 12
+STR ST0
+SETUPIP @IntEthernet -1062731242 -256 0 0x0 C0 C1 DST511
+
+// Rung MainSequencing#7
+// Offset 24
+STR ST1
+CALL Simulate 0x1 DST511 "3" "3"
+
+// Rung MainSequencing#8
+// Offset 32
+STR ST1
+RUN TempControl
+
+// Rung MainSequencing#9
+// Offset 35
+STR ST1
+RUN HMIandMessaging
+
+// Rung MainSequencing#10
+// Offset 38
+STR ST1
+RUN RecipeAndSDcard
+
+// Rung MainSequencing#11
+// Offset 41
+STR ST1
+RUN TimeDate
+
+// Rung MainSequencing#12
+// Offset 44
+STR ST1
+RUN CountsHoursTach
+
+// Rung MainSequencing#13
+// Offset 47
+STR ST1
+RUN ClosingConv17
+
+// Rung MainSequencing#14
+// Offset 50
+STR ST1
+RUN FilmFeed17
+
+// Rung MainSequencing#15
+// Offset 53
+STR ST1
+RUN ConvCalibration
+
+// Rung MainSequencing#16
+// Offset 56
+STR ST1
+RUN ModbusComms
+
+// Rung MainSequencing#17
+// Offset 59
+NOP
+
+// Rung MainSequencing#18
+// Offset 60
+#BEGIN FMT_COMMENT 
+"The following 2 rungs creates a file of bits set to 1 that "
+"are copied into <br>bit files that are shifted in specific "
+"places for operation"
+#END
+
+STRN X8
+INC V2399
+SET ones0
+MOVEBIT ones0 ones[V2399]
+
+// Rung MainSequencing#19
+// Offset 66
+STRGE V2399 255
+MOVE 0 V2399
+
+// Rung MainSequencing#20
+// Offset 72
+STR ST1
+MATH R69 "($HsCtrTmr2.Acc * 100) / 48"
+
+// Rung MainSequencing#21
+// Offset 83
+#BEGIN FMT_COMMENT 
+"High speed counter 2 is encoder signal from TP "
+"intermediate conveyor, the high speed counter is set up to "
+"measure up and down transitions on the count signal. So a "
+"1000 pulse per rev counter will produce 2000 counts per "
+"rev. The first rung reset the counter and register used to "
+"count 0.1 inch increments."
+#END
+
+STRPD Y19
+AND C223
+OUT $HsCtrTmr2.ResetEdge
+
+// Rung MainSequencing#22
+// Offset 87
+#BEGIN COMMENT 
+"Take out of auto at power up"
+#END
+
+STR ST0
+MOVE 0 CT10.Acc
+
+// Rung MainSequencing#23
+// Offset 90
+#BEGIN COMMENT 
+"Power Up Timer"
+#END
+
+STRN ST0
+TMR T70 2000
+
+// Rung MainSequencing#24
+// Offset 93
+#BEGIN COMMENT 
+"MCR Start Up Timer"
+#END
+
+STR X8
+TMR T10 2000
+
+// Rung MainSequencing#25
+// Offset 96
+NOP
+
+// Rung MainSequencing#26
+// Offset 97
+#BEGIN FMT_COMMENT 
+"Limit belt speed to 80 fpm when soft start is selected. "
+"This is done so there is  sufficient length between eye and "
+"seal head for ramping down."
+#END
+
+STRGE V2110 70
+ANDE V2117 2
+MOVE 70 V2110
+
+// Rung MainSequencing#27
+// Offset 107
+#BEGIN COMMENT 
+"Conveyor Speed Analog Out"
+#END
+
+STR ST1
+MATH WY0 "V2110 * 327.67"
+MATH WY1 "V2110 * 327.67"
+
+// Rung MainSequencing#28
+// Offset 126
+#BEGIN COMMENT 
+"Reset MCR Circuit"
+#END
+
+STRN X8
+AND C45
+OUT Y2
+
+// Rung MainSequencing#29
+// Offset 129
+NOP
+
+// Rung MainSequencing#30
+// Offset 130
+NOP
+
+// Rung MainSequencing#31
+// Offset 131
+NOP
+
+// Rung MainSequencing#32
+// Offset 132
+#BEGIN COMMENT 
+"Indicators"
+#END
+
+STR X8
+OUT C62
+OUT Y10
+
+// Rung MainSequencing#33
+// Offset 135
+STR C223
+ANDN C100
+STR C250
+AND ST4
+ORSTR
+STR C100
+AND ST4
+ORSTR
+OUT C61
+OUT Y8
+
+// Rung MainSequencing#34
+// Offset 145
+STRN X8
+AND C223
+STR FB1
+ANDN X8
+ANDN C240
+ORSTR
+OR T3.Done
+OUT FB1
+
+// Rung MainSequencing#35
+// Offset 153
+STR C47
+OR C250
+ORN X8
+MOVE 0 CT10.Acc
+
+// Rung MainSequencing#36
+// Offset 158
+#BEGIN FMT_COMMENT 
+"FAULT TAKES WRAPPER OUT OF AUTO"
+#END
+
+STR FB1
+OR FB2
+OR FB3
+OR FB4
+OR FB5
+OR FB6
+OR FB7
+OR FB8
+OR FB10
+OR FB11
+OR FB12
+OR FB14
+OR FB15
+OR FB16
+OR FB20
+OR FB21
+STR FB22
+ANDE V2223 1
+ORSTR
+OR FB23
+STR FB24
+ANDE V2223 1
+ORSTR
+OR FB25
+OR FB30
+OR FB31
+OR FB32
+OR FB33
+OR FB34
+OR FB35
+OR FB36
+OR FB37
+STR C250
+ANDN ST4
+ORSTR
+MOVE 0 CT10.Acc
+OUT C60
+
+// Rung MainSequencing#37
+// Offset 202
+#BEGIN COMMENT 
+"Alarm Output "
+#END
+
+STR C60
+STR X15
+AND ST4
+ORSTR
+STR X28
+AND ST4
+ORSTR
+STR C38
+AND ST4
+ORSTR
+ORN X8
+OUT Y6
+
+// Rung MainSequencing#38
+// Offset 214
+#BEGIN COMMENT 
+"Auto Mode"
+#END
+
+STR C46
+OR X29
+PD C260
+
+// Rung MainSequencing#39
+// Offset 218
+#BEGIN FMT_COMMENT 
+"On power Up set the ""Safety System Needs to be checked "
+"After Power Up"" bit"
+#END
+
+STR ST0
+SET C18
+RST C19
+
+// Rung MainSequencing#40
+// Offset 221
+STR C18
+AND C232
+SET C19
+
+// Rung MainSequencing#41
+// Offset 224
+STR C223
+TMR T50 500
+
+// Rung MainSequencing#42
+// Offset 227
+STRN C223
+RST C22
+
+// Rung MainSequencing#43
+// Offset 229
+STR C260
+AND T50.Done
+ANDN C618
+SET C22
+
+// Rung MainSequencing#44
+// Offset 233
+STRN C45
+AND C260
+AND C618
+STRN C19
+ANDN C18
+ORE V2133 3
+ANDSTR
+ANDN C22
+STR CT10.Done
+ORN T10.Done
+STR C18
+OR C19
+ANDNE V2133 3
+ORSTR
+CNT CT10 2
+
+// Rung MainSequencing#45
+// Offset 255
+STRE CT10.Acc 1
+OUT C223
+
+// Rung MainSequencing#46
+// Offset 260
+NOP
+
+// Rung MainSequencing#47
+// Offset 261
+#BEGIN FMT_COMMENT 
+"REGISTRATION MARK NOT SEEN FAULT"
+#END
+
+STR ST1
+MATH R119 "TOREAL(V2112) * 0.15"
+
+// Rung MainSequencing#48
+// Offset 272
+STRGT R117 R119
+ANDE V2133 2
+SET FB21
+
+// Rung MainSequencing#49
+// Offset 281
+STR C240
+ORNE V2133 2
+AND FB21
+RST FB21
+MOVE 0 R117
+
+// Rung MainSequencing#50
+// Offset 290
+NOP
+
+// Rung MainSequencing#51
+// Offset 291
+#BEGIN FMT_COMMENT 
+"PRODUCT LENGTH FAULT"
+#END
+
+STRGT N80 V2141
+ANDNE V2141 0
+STRGT N80 V2228
+ANDNE V2228 0
+ANDE V2141 0
+ORSTR
+AND C223
+ANDNE V2133 3
+SET FB20
+
+// Rung MainSequencing#52
+// Offset 318
+STR C240
+AND FB20
+RST FB20
+MOVE 1 N80
+
+// Rung MainSequencing#53
+// Offset 323
+#BEGIN COMMENT 
+"Auto Mode Time Out"
+#END
+
+STR C223
+ANDN T27.Done
+TMR T27 1000
+
+// Rung MainSequencing#54
+// Offset 327
+STR ST1
+MATH D3 "(V2148 * 60) + V2149"
+
+// Rung MainSequencing#55
+// Offset 338
+STRGT V2149 59
+MOVE 59 V2149
+
+// Rung MainSequencing#56
+// Offset 344
+STRN T27.Done
+STRN CT24.Done
+ANDN C223
+OR C26
+STRE V2148 0
+ANDE V2149 0
+ORSTR
+STR C260
+OR C240
+AND CT24.Done
+ORSTR
+CNT CT24 D3
+
+// Rung MainSequencing#57
+// Offset 363
+STRNE V2148 0
+ORNE V2149 0
+AND CT24.Done
+OUT FB14
+
+// Rung MainSequencing#58
+// Offset 373
+#BEGIN COMMENT 
+"Jog"
+#END
+
+STR ST0
+RST C51
+RST C52
+RST C54
+
+// Rung MainSequencing#59
+// Offset 377
+STR C51
+OR C52
+OR C54
+OR X2
+OUT C70
+
+// Rung MainSequencing#60
+// Offset 382
+STR C70
+STRE V2136 0
+OR C223
+ANDSTR
+STRN T60.Done
+ANDN C223
+AND C17
+ORSTR
+ANDN FB2
+AND T11.Done
+AND C618
+OUT C220
+
+// Rung MainSequencing#61
+// Offset 397
+STRN X11
+ANDN C230
+ANDN C231
+ANDN C232
+ANDN C233
+ANDN C234
+TMR T11 500
+
+// Rung MainSequencing#62
+// Offset 405
+NOP
+
+// Rung MainSequencing#63
+// Offset 406
+STR C51
+OR C52
+OR X2
+AND X8
+ANDNE V2136 0
+ANDN C223
+AND C70
+ANDN FB2
+AND T11.Done
+AND C618
+OUT C17
+
+// Rung MainSequencing#64
+// Offset 420
+STRPD C17
+MOVE 0 R11
+
+// Rung MainSequencing#65
+// Offset 424
+STR ST1
+MATH R77 "TOREAL(V2136) - R8"
+
+// Rung MainSequencing#66
+// Offset 434
+STRGE R11 R77
+AND C17
+TMR T60 1
+
+// Rung MainSequencing#67
+// Offset 441
+#BEGIN FMT_COMMENT 
+"If not in registration mode, sequencing bits to position "
+"registered film are held off."
+#END
+
+STRN X8
+OR FB20
+RST C641
+RST C642
+RST C643
+RST C644
+RST C22
+MOVE 0 R60
+MEMCLEAR PT0 250
+MEMCLEAR PTD0 250
+
+// Rung MainSequencing#68
+// Offset 456
+#BEGIN COMMENT 
+"Main Operation Sequencer"
+#END
+
+STRN X8
+OR C220
+OR FB16
+OR FB6
+OR FB7
+OR FB8
+OR FB12
+OR FB10
+OR FB20
+OR FB11
+OR FB2
+ORE V2133 3
+RST C619
+RST C620
+RST C621
+RST C622
+RST C623
+RST C631
+RST C632
+RST C633
+RST C641
+RST C642
+RST C643
+RST C644
+RST C654
+RST C655
+RST C656
+RST C657
+RST C658
+RST C659
+RST C660
+RST C661
+RST C662
+
+// Rung MainSequencing#69
+// Offset 492
+STRN C220
+PD C265
+
+// Rung MainSequencing#70
+// Offset 495
+#BEGIN COMMENT 
+"Main Operation Sequencer"
+#END
+
+STR C265
+AND C223
+RST C621
+RST C622
+RST C623
+RST C631
+RST C632
+RST C633
+RST C641
+RST C642
+RST C643
+RST C644
+SET C654
+RST C655
+RST C656
+RST C657
+RST C658
+RST C659
+RST C660
+RST C661
+RST C662
+
+// Rung MainSequencing#71
+// Offset 516
+#BEGIN FMT_COMMENT 
+"Simulation Indicator on HMI"
+#END
+
+STR ST0
+MOVE 0 V2260
+MOVE 0 V2261
+
+// Rung MainSequencing#72
+// Offset 521
+STRNE V2260 0
+ANDNE V2261 0
+ANDN T178.DN
+TMR T178 2000
+
+// Rung MainSequencing#73
+// Offset 532
+STRGE T178.Acc 500
+OUT C400
+
+// Rung MainSequencing#74
+// Offset 537
+#BEGIN FMT_COMMENT 
+"PRODCT DETECT EYE HORIZONTAL, VERTIVAL, BOTH OR SIMULATE"
+#END
+
+STR X6
+OR X7
+ANDE V2116 3
+AND C29
+STR X7
+ANDE V2116 2
+AND C29
+ORSTR
+STR X6
+ANDE V2116 1
+AND C29
+ORSTR
+STR C28
+ANDN C29
+ORSTR
+OUT C26
+
+// Rung MainSequencing#75
+// Offset 562
+NOP
+
+// Rung MainSequencing#76
+// Offset 563
+NOP
+
+// Rung MainSequencing#77
+// Offset 564
+#BEGIN COMMENT 
+"R5 is accel/decel rate"
+#END
+
+STRE V2117 1
+MATH R5 "0.15 * 2"
+
+// Rung MainSequencing#78
+// Offset 577
+#BEGIN FMT_COMMENT 
+"R5 is VFD  accel/decel rate * 2"
+#END
+
+STRNE V2117 1
+MATH R5 "0.4 * 2"
+
+// Rung MainSequencing#79
+// Offset 590
+STRLE V2233 35
+MOVE 35 V2233
+
+// Rung MainSequencing#80
+// Offset 596
+STRGE V2233 75
+MOVE 75 V2233
+
+// Rung MainSequencing#81
+// Offset 602
+#BEGIN FMT_COMMENT 
+"R49 is distance from product eye to seal jaw front"
+#END
+
+STR ST1
+MATH R49 "V2233 - 7"
+
+// Rung MainSequencing#82
+// Offset 611
+#BEGIN FMT_COMMENT 
+"D102 (disch) and D112(infeed) are the number of 2.5 ms "
+"scans of interupt before conveyor starts moving e.g. 4 = "
+"2.5ms X 4 =0.010 (10ms)."
+#END
+
+STR ST1
+MOVE 6 D102
+MOVE 6 D112
+
+// Rung MainSequencing#83
+// Offset 616
+STRGT V2132 65000
+MATH R132 "TOREAL(V2132 - 65536) / 10.0"
+MATH R133 "0.0"
+
+// Rung MainSequencing#84
+// Offset 640
+STRLE V2132 65000
+MATH R133 "TOREAL(V2132) / 10.0"
+MATH R132 "0.0"
+
+// Rung MainSequencing#85
+// Offset 661
+STRLT V2123 20
+MOVE 20 V2123
+
+// Rung MainSequencing#86
+// Offset 667
+#BEGIN FMT_COMMENT 
+"Calculates minimum gap spacing in two ways to give a small "
+"range.  One way is if the first product rear must be at the "
+"crown of the infeed conveyor roller before product B can "
+"stage. And if product A can have 40%25 of its bottom "
+"contacting the infoeed conveyor belt when product B can "
+"stage.  The rollers are 1.5 inches apart when the closing "
+"conveyor is on and 3.5 inches apart when the closing "
+"conveyor is off.  The above values are compared against the "
+"off delay setting + 0.2 ( need a little extra to make sure "
+"the off delay clears between products).  Which ever is "
+"larger is reported as the necessary product feed gap needed."
+#END
+
+STR ST1
+DUPBOOL
+AND ST1
+MATH R275 "(TOREAL(V2124) / 10) + 0.2"
+POPBOOL
+DUPBOOL
+AND ST1
+MATH R276 "((TOREAL(V2111) / 10) + R151) - 1.2"
+POPBOOL
+DUPBOOL
+ANDE V2113 2
+MATH R277 "R276 - (((TOREAL(V2123) / 10) - 1.5) * 0.4)"
+POPBOOL
+DUPBOOL
+ANDE V2113 1
+MATH R277 "R276 - (((TOREAL(V2123) / 10) - 3.0) * 0.4)"
+POPBOOL
+DUPBOOL
+ANDGE R275 R276
+MOVE R275 R278
+POPBOOL
+DUPBOOL
+ANDLT R275 R276
+MOVE R276 R278
+POPBOOL
+DUPBOOL
+ANDGE R275 R277
+MOVE R275 R279
+POPBOOL
+ANDLT R275 R277
+MOVE R277 R279
+
+// Rung MainSequencing#87
+// Offset 776
+#BEGIN FMT_COMMENT 
+"Calcs for conv movement and package tracking on infeed "
+"conv<br>R0 is how far in inches the belt travels at speed "
+"set point each 2.5ms (interrupt time)<br>"
+"R1 is the rounded number of interrupt scans needed to accel "
+"or decel fully<br>"
+"R2 is how much to add to velocity each interrupt scan "
+"during accel or decel <br>R7 is the time in ms needed to "
+"ramp down from current velocity<br>"
+"R8 is the stopping distance gven the current velocity and "
+"decel rate"
+#END
+
+STR ST1
+MATH R0 "TOREAL(V2110) / 2000"
+MATH R1 "(TOREAL(V2110) * 0.006 * R5) / 0.0025"
+MATH R2 "R0 / R1"
+MATH R7 "(R6 * 40000) / (20 / (R5 * 6))"
+MATH R8 "TOREAL(V2110) * 0.006 * R5 * (R6 * 200)"
+
+// Rung MainSequencing#88
+// Offset 839
+STRN C619
+ANDN C620
+ANDN C621
+ANDN C622
+ANDN C623
+ANDN C631
+ANDN C632
+ANDN C633
+OUT C601
+
+// Rung MainSequencing#89
+// Offset 848
+STR C601
+ANDN C654
+ANDN C655
+ANDN C656
+ANDN C657
+ANDN C658
+ANDN C659
+ANDN C660
+ANDN C661
+OUT C618
+
+// Rung MainSequencing#90
+// Offset 858
+#BEGIN FMT_COMMENT 
+"Have the option in the program to se a ""set"" or ""reset"" to "
+"setup how cycle stop<br>works"
+#END
+
+STR ST0
+RST C607
+
+// Rung MainSequencing#91
+// Offset 860
+#BEGIN FMT_COMMENT 
+"This is the rung that takes out of auto when cycle "
+"stopping after each pack in a bundle."
+#END
+
+STR C22
+AND C618
+AND C607
+MOVE 0 CT10.Acc
+RST C223
+RST C22
+
+// Rung MainSequencing#92
+// Offset 867
+STR Y19
+OFFDTMR T186 500 C2
+
+// Rung MainSequencing#93
+// Offset 871
+#BEGIN FMT_COMMENT 
+"R150 is time in seconds it will take for discharge "
+"conveyor to come up to set speed.<br>"
+"R151 is the distance in inches that the conveyors will "
+"travel after the run signal<br>"
+"is turned off to the freq drive if already running at full "
+"speed."
+#END
+
+STR ST1
+MATH R150 "(TOREAL(D102) * 0.0025) + (0.006 * TOREAL(V2110) * R5)"
+MATH R151 "0.006 * TOREAL(V2110) * R5 * V2110 * 0.1"
+MATH R152 "TOREAL(V2110) * 0.006 * R5 * (R16 * 200) * 10"
+MATH R153 "TOREAL(V2110) * 0.006 * R5 * (R6 * 200) * 10"
+
+// Rung MainSequencing#94
+// Offset 943
+STR ST1
+MATH V2370 "((V2233 - 5) - V2111) - (R151 * 10)"
+MATH V2371 "((V2233 - 5) - V2111) - R152"
+MATH V2372 "(V2233 - 5) - V2111"
+MATH V2373 "(((V2233 - 5) - V2111) + V2114) - R152"
+MATH V2374 "V2370"
+MATH V2375 "((((V2233 - 3) - (R132 * 10)) - R152) + ((R151 - (R151 - (R153 / 10))) * 10)) - 3"
+MATH V2395 "(((V2233 - 3) - (R132 * 10)) - 30.7) + ((R151 - (R151 - (0 / 10))) * 10)"
+MATH V2376 "V2233 - 3"
+MATH V2377 "((V2233 - 3) + (R133 * 10)) - R153"
+MATH V2378 "V2233 - 3"
+MATH V2379 "V2233 + V2104"
+MATH V2380 "V2233 + V2104"
+
+// Rung MainSequencing#95
+// Offset 1097
+#BEGIN FMT_COMMENT 
+"No Step - C618 turns on the infeed conveyor and turns off "
+"the discharge conveyor<br> <br>"
+"The sequencer advances to the next step when the leading "
+"edge of the next product on the infeed conveyor reaches the "
+"point where the discharge conveyor VFD must start.  This "
+"rung is for when this is the first product in a package "
+"and<br>there is no run in. V2371 is how many 1/10 inches "
+"after the eye when this is the first product and there is "
+"no run in.  When there is zero calculated ""run in"" this "
+"means that if a productt stages while sealing, it will be "
+"placed such that when sealing is complete, both discharge "
+"and infeed conveyor will start at the same time.  If  ""run "
+"in"" is not zero, the system has calculated that the front "
+"bag length has been set sufficiently short, that the even "
+"when the product stages as close to the seal head as "
+"possible, after sealing is complete, the infeed conveyor "
+"will have to run before the discharge conveyor starts to "
+"make a shorter front bag. <br> <br>The move range of bits "
+"instruction fills the bit shift register that tracks "
+"products <br>"
+"on the conveyor as follows.  Locations after the front of "
+"the product are filled with ones.  In many scenarios, the "
+"rungs that unlatch c620 are looking for the rear of the "
+"product (zeros in the Product Tracking shift register (PT "
+"bits).  With short products and with compensation needed "
+"for ramp down, the rungs that advance the process to the "
+"next step will be looking for zeros in the shift register "
+"that may be ahead of the front of the current product.  By "
+"filling all bits ahead of the front of the current "
+"package,  later rungs that look for the rear of the package "
+"will properly detect the rear of the product and not the "
+"gap ahead of the current product. "
+#END
+
+STR PT[V2371]
+ANDE R60 0
+ANDE V2114 0
+AND C618
+AND C223
+ANDNE V2133 3
+SET C620
+RST C618
+MOVER ones0 120 PT[V2371]
+
+// Rung MainSequencing#96
+// Offset 1119
+#BEGIN FMT_COMMENT 
+"No Step - C618 turns on the infeed conveyor and turns off "
+"the discharge conveyor<br> <br>"
+"The sequencer advances to the next step when the leading "
+"edge of the next product on the infeed conveyor reaches the "
+"point where the discharge conveyor VFD must start.  This "
+"rung is for when this is the first product in a package "
+"and<br>there is and a ""run in"" has been calculated. V2373 "
+"is how many 1/10 inches after the eye when this is the "
+"first product and there is run in.  When there is zero "
+"calculated ""run in"" this means that if a productt stages "
+"while sealing, it will be placed such that when sealing is "
+"complete, both discharge and infeed conveyor will start at "
+"the same time.  If  ""run in"" is not zero, the system has "
+"calculated that the front bag length has been set "
+"sufficiently short, that the even when the product stages "
+"as close to the seal head as possible, after sealing is "
+"complete, the infeed conveyor will have to run before the "
+"discharge conveyor starts to make a shorter front bag. <br> "
+"<br>The move range of bits instruction fills the bit shift "
+"register that tracks products <br>on the conveyor as "
+"follows.  Locations after the front of the product are "
+"filled with ones.  In many scenarios, the rungs that "
+"unlatch c620 are looking for the rear of the product (zeros "
+"in the Product Tracking shift register (PT bits).  With "
+"short products and with compensation needed for ramp down, "
+"the rungs that advance the process to the next step will be "
+"looking for zeros in the shift register that may be ahead "
+"of the front of the current product.  By filling all bits "
+"ahead of the front of the current package,  later rungs "
+"that look for the rear of the package will properly detect "
+"the rear of the product and not the gap ahead of the "
+"current product. "
+#END
+
+STR PT[V2373]
+ANDE R60 0
+ANDNE V2114 0
+AND C618
+ANDN C612
+AND C223
+ANDNE V2133 3
+SET C620
+RST C618
+MOVER ones0 120 PT[V2373]
+
+// Rung MainSequencing#97
+// Offset 1142
+#BEGIN FMT_COMMENT 
+"No Step - C618 turns on the infeed conveyor and turns off "
+"the discharge conveyor<br> <br>"
+"The sequencer advances to the next step when the leading "
+"edge of the next product on the infeed conveyor reaches the "
+"point where the discharge conveyor VFD must start.  This "
+"rung is for when this is not the first product in a "
+"package. This rung is only used in a multipack set up. And "
+"operates for every product within a multipack except the "
+"first product.  This rung is not used at all for single "
+"packs.<br>V2375 is how many 1/10 inches after the eye that "
+"the front of this product has to travel to before the "
+"discharge conveyor is turned on when this is not the first "
+"product within a package. This will start the discharge "
+"conveyor such that the front of this package will just "
+"reach the rear of the previous package that was placed "
+"right at the beginning of the discharge conveyor. <br> "
+"<br>The move range of bits instruction fills the bit shift "
+"register that tracks products <br>on the conveyor as "
+"follows.  Locations after the front of the product are "
+"filled with ones.  In many scenarios, the rungs that "
+"unlatch c620 are looking for the rear of the product (zeros "
+"in the Product Tracking shift register (PT bits).  With "
+"short products and with compensation needed for ramp down, "
+"the rungs that advance the process to the next step will be "
+"looking for zeros in the shift register that may be ahead "
+"of the front of the current product.  By filling all bits "
+"ahead of the front of the current package,  later rungs "
+"that look for the rear of the package will properly detect "
+"the rear of the product and not the gap ahead of the "
+"current product. "
+#END
+
+STR PT[V2375]
+ANDNE R60 0
+AND C618
+AND C223
+ANDNE V2133 3
+SET C620
+RST C618
+MOVER ones0 120 PT[V2375]
+MOVE V2375 V2395
+MOVE 0.0 R27
+
+// Rung MainSequencing#98
+// Offset 1165
+#BEGIN FMT_COMMENT 
+"If in registration mode, start the process to run film "
+"until the next seal area of the film is centered under the "
+"seal jaw. "
+#END
+
+STRPD C620
+ANDE R60 0
+ANDE V2133 2
+ANDN C641
+ANDN C642
+ANDN C643
+ANDN C644
+SET C641
+RST C642
+RST C643
+RST C644
+
+// Rung MainSequencing#99
+// Offset 1183
+#BEGIN FMT_COMMENT 
+"This rung makes sure the current packs in a bundle cannot "
+"exceed the value in<br>"
+"the packs per bundle parameter.  This keeps the sequence "
+"from being in a <br>loop it cant get out of if the packs "
+"per bundle parameter gets set to something lower than the "
+"current counted up packs per bundle while running. "
+#END
+
+STRGT R60 V2131
+MOVE V2131 R60
+
+// Rung MainSequencing#100
+// Offset 1189
+#BEGIN FMT_COMMENT 
+"If the wrapper is selected to registration mode while "
+"running, this rung resets the count value to 0 so that it "
+"cannot happen that in the middle of a cycle, it looks for "
+"the ""registered film advanced to next seal area"" signal, "
+"when the process to start the ""registered film advance"" was "
+"not started in an earlier step."
+#END
+
+STRE V2133 2
+ANDPDPF
+MOVE 0 R60
+
+// Rung MainSequencing#101
+// Offset 1196
+#BEGIN FMT_COMMENT 
+"Sets the packs counted register to zero when the seal is completed."
+#END
+
+STRND Y4
+MOVE 0 R60
+
+// Rung MainSequencing#102
+// Offset 1200
+STR ST1
+MATH V2295 "V2131 - 1"
+
+// Rung MainSequencing#103
+// Offset 1209
+#BEGIN FMT_COMMENT 
+"This rung only occurs if this is the last product in the "
+"bundle. This step keeps the infeed and discharge conveyors "
+"running and waits until the rear of the product clears a "
+"point on the infeed conveyor where the product is now "
+"handed off the the discharge conveyor.  This hand off to "
+"the discharge conveyor point is the same point where he "
+"discharge conveyor would have to start ramping down if the "
+"rear of the is to be placed at the beginning of the "
+"disharge conveyor. This is the same point as used to turn "
+"off the discharge conveyor if running a product in a bundle "
+"that is not the last product. ... <br> <br>The memclear and "
+"moverange instructions place bits in the PTD (product "
+"tracking discharge) bit file that reprensent the position "
+"of the rear of the package when handed off from infeed "
+"conveyor to discharge conveyor.  Later rungs will monitor "
+"the proper position in the PTD bit file to detect the rear "
+"of the package at the point where the discharge conveyor is "
+"shut off and allowed to ramp down to position for sealing.  "
+"<br>When this step completes, the infeed conveyor is set to "
+"run in stage mode. <br>This rung also increments the packs "
+"within a multipack register by 1."
+#END
+
+STRN PT[V2374]
+AND C620
+ANDGE R60 V2295
+SET C621
+RST C620
+MATH R81 "((V2233 + V2104) - V2374) * 0.1"
+MATH R85 "((V2233 - 18) - V2374) * 0.1"
+MATH R60 "R60 + 1"
+MOVE 0.0 R27
+
+// Rung MainSequencing#104
+// Offset 1255
+#BEGIN FMT_COMMENT 
+"If this is not the last product in a bundle, this step "
+"C620, keeps infeed and discharge conveyor running and waits "
+"until the rear of the product clears the point where it "
+"would have to start ramping down the disch conveyor to "
+"place rear of product in the correct position for products "
+"within a bundle.  <br> <br>Since, it is not the last "
+"package in the bundle, it steps back to step 0 to bring in "
+"the next product."
+#END
+
+STRN PT[V2377]
+AND C620
+ANDNE R60 V2295
+SET C618
+RST C620
+MATH R60 "R60 + 1"
+MEMCLEAR PT[V2377] 120
+MOVE 0 R27
+MOVE R153 R184
+
+// Rung MainSequencing#105
+// Offset 1280
+#BEGIN FMT_COMMENT 
+"If not in registration mode, sequencing bits to position "
+"registered film are held off."
+#END
+
+STRNE V2133 2
+RST C641
+RST C642
+RST C643
+RST C644
+
+// Rung MainSequencing#106
+// Offset 1288
+STR ST1
+MATH R83 "R81 - (R153 * 0.1)"
+
+// Rung MainSequencing#107
+// Offset 1300
+#BEGIN FMT_COMMENT 
+"This calculation determines if the advance is high enough "
+"that the discharge conveyor run signal must still stay on "
+"after the seal jaw is activated. This is the case if D158 "
+"is negative. If D158 is zero, the seal jaw starts at the "
+"same time the signal to the discharge conveyor is turned "
+"off.  If D158 is positive, this means that the advance is "
+"low enough that the seal jaw will be activated some time "
+"after the <br>discharge drive signal is turned off. "
+#END
+
+STR ST1
+MATH D158 "(TOREAL(V2110) * 2 * D157) / 1000"
+
+// Rung MainSequencing#108
+// Offset 1314
+#BEGIN FMT_COMMENT 
+"If D158 is 0 or less, the seal jaw will activate at or "
+"before when the discharge VFD is turned off.  D158 is how "
+"many 0.1 inches before the normal point where the discharge "
+"drive is shut off  when the cross seal jaw must activate.  "
+"V2385 is that point where the rear of the package passes "
+"when the jaw must activate given the advance setting.  D159 "
+"is the amount of time in ms that the discharge conv vfd has "
+"to be kept on after the jaw has been activated due to "
+"advance."
+#END
+
+STRLE D158 0
+MATH D159 "D157 * -1"
+
+// Rung MainSequencing#109
+// Offset 1327
+STR ST1
+MATH R82 "R83 + (D158 * 0.1)"
+
+// Rung MainSequencing#110
+// Offset 1339
+#BEGIN FMT_COMMENT 
+"Thsi rung activates the seal jaw early (before the rear of "
+"the product reaches the point where the discharge vfd would "
+"normally be shut off. C665 starts a timer to keep the "
+"discharge vfd signal on (keep C621 on for a time even as "
+"the seal jaw has been activated)"
+#END
+
+STRGE R27 R82
+ANDLE D158 0
+AND C621
+SET C633
+SET C665
+
+// Rung MainSequencing#111
+// Offset 1350
+STR C665
+TMR T159 D159
+
+// Rung MainSequencing#112
+// Offset 1353
+#BEGIN FMT_COMMENT 
+"Keep discharge vfd run signal on even after seal jaw "
+"activated (during advance situation)"
+#END
+
+STR T159.Done
+AND C621
+RST C621
+RST C665
+
+// Rung MainSequencing#113
+// Offset 1357
+#BEGIN FMT_COMMENT 
+"The sequence has advanced to this step because this is the "
+"last package in the bundle. This step runs the discharge "
+"conveyor until the rear of the prodcut clear the point "
+"where the discharge freq drive is sht off and the disch "
+"conveyor ramps the rear of the last product in the bundle "
+"to the position to seal.  (Advance is not high enough such "
+"that the seal jaw must be activated while the discharge vfd "
+"run signal is still on)"
+#END
+
+STRGE R27 R83
+ANDGT D158 0
+AND C621
+SET C622
+RST C621
+
+// Rung MainSequencing#114
+// Offset 1368
+#BEGIN FMT_COMMENT 
+"If not running registered film and advance parameter is "
+"less than ramp time, run out the ramp timer before seal jaw "
+"is activated."
+#END
+
+STR C622
+ANDE V2133 1
+SET C623
+RST C622
+
+// Rung MainSequencing#115
+// Offset 1375
+#BEGIN FMT_COMMENT 
+"If running registered film and this is not the last pack "
+"in a bundle, just reset step C622 so the process is again "
+"in 'no step"" so it begins the process to position the next "
+"pack within the bundle. If this is the last pack in the "
+"bundle, then go to a step that keeps discharge conveyor "
+"running while it finishes posoitioning the registered film "
+"for sealing."
+#END
+
+STR C622
+ANDE V2133 2
+RST C622
+SET C631
+
+// Rung MainSequencing#116
+// Offset 1382
+STR ST1
+MATH D157 "(R150 * 1000) + R121"
+
+// Rung MainSequencing#117
+// Offset 1393
+STR C623
+TMR T157 D157
+
+// Rung MainSequencing#118
+// Offset 1396
+STR T157.DN
+SET C633
+RST C622
+RST C623
+
+// Rung MainSequencing#119
+// Offset 1400
+NOP
+
+// Rung MainSequencing#120
+// Offset 1401
+NOP
+
+// Rung MainSequencing#121
+// Offset 1402
+NOP
+
+// Rung MainSequencing#122
+// Offset 1403
+#BEGIN FMT_COMMENT 
+"THE FOLLOWING RUNGS ARE FOR REGISTRATION CONTROL"
+#END
+
+NOP
+
+// Rung MainSequencing#123
+// Offset 1404
+STRGT V2107 65000
+MATH R107 "TOREAL(V2107 - 65536) / 10.0"
+
+// Rung MainSequencing#124
+// Offset 1421
+STRLE V2107 65000
+MATH R107 "TOREAL(V2107) / 10.0"
+
+// Rung MainSequencing#125
+// Offset 1435
+STR ST1
+MATH R112 "((TOREAL(V2232) / 10.0) - (TRUNC((TOREAL(V2232) / 10.0) / (TOREAL(V2112) / 10.0)) * TOREAL(V2112 / 10.0))) - ((0.5 * TOREAL(V2112)) / 10.0)"
+MATH R113 "(R112 - R8) + R107"
+
+// Rung MainSequencing#126
+// Offset 1484
+NOP
+
+// Rung MainSequencing#127
+// Offset 1485
+STRLT V2142 1
+MOVE 1 V2142
+
+// Rung MainSequencing#128
+// Offset 1491
+STRGE V2142 2
+MOVE 2 V2142
+
+// Rung MainSequencing#129
+// Offset 1497
+STRPD X3
+MOVE 0 R117
+
+// Rung MainSequencing#130
+// Offset 1501
+STRE V2133 2
+ANDPDPF
+MOVE 0 R117
+
+// Rung MainSequencing#131
+// Offset 1508
+STRPD X3
+ANDE V2142 1
+MOVE R115 R116
+MATH R115 "TOREAL(V2112) * -0.1"
+
+// Rung MainSequencing#132
+// Offset 1527
+STRPD X3
+ANDE V2142 2
+MOVE R115 R116
+MATH R115 "TOREAL(V2112) * -0.05"
+
+// Rung MainSequencing#133
+// Offset 1546
+STRN X9
+ORN X10
+OR ST0
+OR C51
+OR FB21
+RST C140
+
+// Rung MainSequencing#134
+// Offset 1552
+STRPD C53
+ANDN C223
+AND X9
+SET C140
+
+// Rung MainSequencing#135
+// Offset 1557
+STR C140
+ANDGE R115 R113
+ANDLT R115 499
+RST C140
+MOVE 500 R115
+
+// Rung MainSequencing#136
+// Offset 1569
+STR C140
+ANDGE R116 R113
+ANDLT R116 499
+RST C140
+MOVE 500 R116
+
+// Rung MainSequencing#137
+// Offset 1581
+STR C641
+SET C642
+RST C641
+
+// Rung MainSequencing#138
+// Offset 1584
+STR C642
+ANDGE R115 R113
+ANDLT R115 499
+SET C643
+RST C642
+MOVE 500 R115
+
+// Rung MainSequencing#139
+// Offset 1597
+STR C642
+ANDGE R116 R113
+ANDLT R116 499
+SET C643
+RST C642
+MOVE 500 R116
+
+// Rung MainSequencing#140
+// Offset 1610
+#BEGIN FMT_COMMENT 
+"This rung calculates time in ms till end of product move.  "
+"This is used for seal advance."
+#END
+
+STR ST1
+MATH D1876 "(((R113 - R115) * 100000) / (V2110 * 20)) + (R150 * 1000)"
+MATH D1877 "(((R113 - R116) * 100000) / (V2110 * 20)) + (R150 * 1000)"
+
+// Rung MainSequencing#141
+// Offset 1649
+STRPD C642
+DUPBOOL
+ANDGE D1876 D1877
+MATH D1880 "D1876 + R121"
+POPBOOL
+ANDGE D1877 D1876
+MATH D1880 "D1877 + R121"
+
+// Rung MainSequencing#142
+// Offset 1677
+STRPD C643
+MATH D1880 "R7 + R121"
+
+// Rung MainSequencing#143
+// Offset 1687
+STR C643
+TMR T169 D1880
+
+// Rung MainSequencing#144
+// Offset 1690
+STR T169.Done
+SET C644
+RST C643
+
+// Rung MainSequencing#145
+// Offset 1693
+NOP
+
+// Rung MainSequencing#146
+// Offset 1694
+STR C631
+AND C644
+SET C633
+RST C631
+RST C644
+
+// Rung MainSequencing#147
+// Offset 1699
+STRGT V2121 65000
+MATH R121 "TOREAL(V2121 - 65536) * 10.0"
+
+// Rung MainSequencing#148
+// Offset 1716
+STRLE V2121 65000
+MATH R121 "TOREAL(V2121) * 10.0"
+
+// Rung MainSequencing#149
+// Offset 1730
+STRN C631
+AND C644
+SET C615
+
+// Rung MainSequencing#150
+// Offset 1733
+STR C631
+ANDN C644
+ORNE V2133 2
+RST C615
+
+// Rung MainSequencing#151
+// Offset 1740
+NOP
+
+// Rung MainSequencing#152
+// Offset 1741
+STR C633
+SET C654
+RST C633
+
+// Rung MainSequencing#153
+// Offset 1744
+STR C654
+TMR T166 999
+
+// Rung MainSequencing#154
+// Offset 1747
+STR C654
+ANDN X9
+ANDN X10
+AND X11
+SET C655
+RST C654
+MOVE T166.Acc V1881
+
+// Rung MainSequencing#155
+// Offset 1755
+STR C654
+AND C222
+RST C654
+RST C222
+
+// Rung MainSequencing#156
+// Offset 1759
+STR ST1
+MATH D170 "V2103 * 10"
+
+// Rung MainSequencing#157
+// Offset 1768
+STR C655
+TMR T170 D170
+AND T170.DN
+SET C656
+RST C655
+
+// Rung MainSequencing#158
+// Offset 1774
+STRN Y13
+TMR T29 99
+
+// Rung MainSequencing#159
+// Offset 1777
+STRND X13
+MATH V1749 "T29.Acc * 1"
+
+// Rung MainSequencing#160
+// Offset 1787
+STRGE V1749 1000
+MOVE 1000 V1749
+
+// Rung MainSequencing#161
+// Offset 1793
+STR C656
+OR C660
+ANDN X13
+TMR T19 V1749
+
+// Rung MainSequencing#162
+// Offset 1798
+STR C656
+AND X9
+AND X10
+SET C660
+RST C656
+ANDNE V1803 0
+SET C657
+
+// Rung MainSequencing#163
+// Offset 1808
+STRPD C657
+MOVE 0 R23
+
+// Rung MainSequencing#164
+// Offset 1812
+STR C657
+MATH R28 "(V1803 - R153) / 10"
+
+// Rung MainSequencing#165
+// Offset 1823
+STR C657
+ANDGE R23 R28
+ANDNE V2114 0
+SET C658
+RST C657
+
+// Rung MainSequencing#166
+// Offset 1834
+STR C657
+STRGE R23 R28
+ANDE V2114 0
+ORE V1803 0
+ANDSTR
+SET C659
+RST C657
+
+// Rung MainSequencing#167
+// Offset 1850
+STRPD C658
+MOVE R7 D171
+
+// Rung MainSequencing#168
+// Offset 1854
+STR C658
+TMR T171 D171
+STR T171.DN
+ORE V2114 0
+ANDSTR
+SET C659
+RST C658
+
+// Rung MainSequencing#169
+// Offset 1865
+STR ST1
+MATH D172 "V2135 * 10"
+
+// Rung MainSequencing#170
+// Offset 1874
+STR C660
+TMR T172 D172
+AND T172.DN
+SET C661
+RST C660
+
+// Rung MainSequencing#171
+// Offset 1880
+#BEGIN FMT_COMMENT 
+"Takes Out of Auto when cycle stopping when seal process is completed."
+#END
+
+STR C659
+ORE V1803 0
+AND C661
+AND C22
+MOVE 0 CT10.Acc
+RST C223
+RST C22
+RST C659
+RST C661
+
+// Rung MainSequencing#172
+// Offset 1893
+STR C659
+ORE V1803 0
+AND C661
+ANDN C805
+ANDN C22
+STRE V2113 2
+STRN C124
+AND X12
+STR C124
+AND T19.DN
+ORSTR
+ANDSTR
+ORNE V2113 2
+ANDSTR
+STRN C77
+STR C77
+ANDNE V2114 0
+ORSTR
+OR ST1
+ANDSTR
+RST C659
+RST C661
+SET C618
+RST C77
+SET C614
+
+// Rung MainSequencing#173
+// Offset 1930
+STR C659
+AND C661
+ANDN C22
+AND C77
+AND PT[V2372]
+ANDE V2114 0
+ANDN ST1
+RST C659
+RST C661
+SET C620
+MOVER ones0 100 PT[V2370]
+RST C77
+SET C614
+
+// Rung MainSequencing#174
+// Offset 1950
+NOP
+
+// Rung MainSequencing#175
+// Offset 1951
+NOP
+
+// Rung MainSequencing#176
+// Offset 1952
+NOP
+
+// Rung MainSequencing#177
+// Offset 1953
+NOP
+
+// Rung MainSequencing#178
+// Offset 1954
+NOP
+
+// Rung MainSequencing#179
+// Offset 1955
+STR C620
+STR C215
+ANDE V2133 2
+ORSTR
+OR C618
+OR C619
+ORE V2133 3
+AND C223
+AND X8
+OUT C224
+
+// Rung MainSequencing#180
+// Offset 1971
+NOP
+
+// Rung MainSequencing#181
+// Offset 1972
+STR C45
+OUT Y16
+
+// Rung MainSequencing#182
+// Offset 1974
+STRE V2117 2
+OUT Y17
+
+// Rung MainSequencing#183
+// Offset 1979
+STR X19
+AND C618
+ANDNE V2133 3
+STR X19
+AND C26
+ANDE V2133 3
+ORSTR
+STR C510
+ANDNE V2162 0
+ORSTR
+AND C223
+SET C100
+
+// Rung MainSequencing#184
+// Offset 2000
+STRN X19
+ANDE V2162 0
+STRN C510
+ANDNE V2162 0
+ANDN X19
+ORSTR
+ORN C223
+RST C100
+
+// Rung MainSequencing#185
+// Offset 2014
+STR PT[V2370]
+STRGE R60 V2131
+OR ST1
+ANDSTR
+ANDN C618
+ANDN C620
+SET C77
+
+// Rung MainSequencing#186
+// Offset 2025
+STR C88
+TMR T88 1500
+
+// Rung MainSequencing#187
+// Offset 2028
+STR ST0
+RST C88
+RST C89
+RST C90
+
+// Rung MainSequencing#188
+// Offset 2032
+STR T88.DN
+RST C88
+RST C89
+
+// Rung MainSequencing#189
+// Offset 2035
+STRPD X6
+AND C90
+SET C88
+
+// Rung MainSequencing#190
+// Offset 2039
+#BEGIN COMMENT 
+"Infeed Conveyor"
+#END
+
+STR C224
+ANDN C100
+STR C52
+AND C220
+OR C54
+AND T11.DN
+ANDN FB2
+ORSTR
+OR C173
+OR C171
+STRN C77
+AND C223
+STRN C100
+ORN PT[V2370]
+ANDSTR
+ORSTR
+OR C89
+ANDN C250
+AND X8
+OUT Y18
+
+// Rung MainSequencing#191
+// Offset 2060
+STR Y18
+ORN X18
+ANDN X14
+AND C223
+STR Y18
+ANDN C223
+ORSTR
+OUT Y11
+
+// Rung MainSequencing#192
+// Offset 2068
+#BEGIN COMMENT 
+"Discharge Conveyor"
+#END
+
+STR C225
+ANDN C100
+OR C233
+OR C140
+STR C51
+OR C52
+OR X2
+AND C220
+ANDN FB2
+ORSTR
+OR C173
+OR C171
+OR C88
+STRN C250
+AND X8
+ORN ST1
+ANDSTR
+OUT Y19
+
+// Rung MainSequencing#193
+// Offset 2086
+STR C620
+OR C621
+STR C641
+AND C631
+ORSTR
+STR C642
+AND C631
+ORSTR
+OR C657
+STRE V2133 3
+ANDN C100
+ORSTR
+STR C223
+ANDNE V2133 3
+STR C223
+ANDN T37.Done
+ORSTR
+ANDSTR
+OUT C225
+
+// Rung MainSequencing#194
+// Offset 2111
+#BEGIN FMT_COMMENT 
+"Calculates run through runout time based on conveyor speed "
+"and 48 inches of length."
+#END
+
+STR ST1
+MATH D37 "(48.0 / (TOREAL(V2110) / 5.0)) * 1000"
+
+// Rung MainSequencing#195
+// Offset 2127
+STRN C26
+TMR T37 D37
+
+// Rung MainSequencing#196
+// Offset 2130
+#BEGIN COMMENT 
+"Side Seal"
+#END
+
+STR C223
+AND C26
+STR Y3
+ANDNE V2231 0
+ORSTR
+OR C220
+OR C233
+ANDN T25.Done
+ORE V2231 0
+ANDN C250
+AND X8
+ANDN C210
+OUT Y3
+
+// Rung MainSequencing#197
+// Offset 2149
+#BEGIN FMT_COMMENT 
+"Hot Knife Watchdog timer preset calc from parameter"
+#END
+
+STR ST1
+MATH D2067 "V2231 * 100"
+
+// Rung MainSequencing#198
+// Offset 2158
+STR Y3
+STRN C223
+ANDN C220
+STR C223
+ANDN Y19
+ANDN C26
+ORSTR
+ANDSTR
+TMR T25 D2067
+
+// Rung MainSequencing#199
+// Offset 2168
+#BEGIN COMMENT 
+"Cross Seal"
+#END
+
+STR X13
+ORNE V2113 2
+STR C654
+OR C655
+ANDSTR
+AND C223
+OUT C226
+
+// Rung MainSequencing#200
+// Offset 2178
+STR C226
+OR C227
+ANDN FB2
+ANDN C250
+ANDN FB6
+ANDN FB7
+ANDN FB8
+ANDN FB10
+ANDN FB11
+ANDN C222
+ANDN C210
+OUT Y5
+
+// Rung MainSequencing#201
+// Offset 2190
+STRN Y5
+TMR T42 0
+
+// Rung MainSequencing#202
+// Offset 2193
+STR C401
+SET C402
+
+// Rung MainSequencing#203
+// Offset 2195
+STRPD Y5
+RST C402
+
+// Rung MainSequencing#204
+// Offset 2198
+NOP
+
+// Rung MainSequencing#205
+// Offset 2199
+STRN FB2
+ANDN C402
+MATH D2065 "V2105 * 10"
+
+// Rung MainSequencing#206
+// Offset 2209
+STR FB2
+OR C402
+MOVE 990 D2065
+
+// Rung MainSequencing#207
+// Offset 2213
+STR T42.Done
+TMR T43 D2065
+
+// Rung MainSequencing#208
+// Offset 2216
+STR ST0
+SET C120
+
+// Rung MainSequencing#209
+// Offset 2218
+STR T43.Done
+RST C120
+
+// Rung MainSequencing#210
+// Offset 2220
+STR T42.Done
+STRN T43.Done
+ANDN C120
+ORE D2065 990
+ANDSTR
+ORN X8
+OR C210
+OUT Y4
+
+// Rung MainSequencing#211
+// Offset 2231
+STR ST1
+MATH V2247 "TOREAL(V2110) * 2 * 0.3"
+
+// Rung MainSequencing#212
+// Offset 2244
+STRGT V2147 0
+ANDLT V2147 V2247
+MOVE V2247 V2147
+
+// Rung MainSequencing#213
+// Offset 2254
+NOP
+
+// Rung MainSequencing#214
+// Offset 2255
+STRE V2150 1
+MOVE 0 V2147
+
+// Rung MainSequencing#215
+// Offset 2261
+STRND Y5
+ANDE V2150 2
+STRPD X11
+ANDE V2150 1
+ORSTR
+ANDE V2147 0
+ANDGT V2150 0
+STRPD C147
+AND Y7
+ANDN ST1
+ANDNE V2147 0
+ORSTR
+ANDN C210
+SET Y12
+
+// Rung MainSequencing#216
+// Offset 2293
+STR ST1
+MATH D127 "((TOREAL(V2110) * 2) / TOREAL(V2147)) * 100"
+
+// Rung MainSequencing#217
+// Offset 2308
+STR Y7
+STR T127.DN
+TMRA T127 D127
+
+// Rung MainSequencing#218
+// Offset 2312
+STRGE T127.Acc 5
+ANDPDPF
+ANDNE V2147 0
+AND T186.DN
+SET Y12
+
+// Rung MainSequencing#219
+// Offset 2323
+STR Y12
+ANDNE V2147 0
+TMR T124 40
+
+// Rung MainSequencing#220
+// Offset 2330
+STR Y12
+ANDE V2147 0
+TMR T17 D2227
+
+// Rung MainSequencing#221
+// Offset 2337
+STR T17.Done
+OR T124.Done
+RST Y12
+
+// Rung MainSequencing#222
+// Offset 2340
+#BEGIN COMMENT 
+"Manual Cross Seal"
+#END
+
+STR C230
+OR C231
+ANDN C223
+STR X13
+ORNE V2113 2
+ANDSTR
+OUT C227
+
+// Rung MainSequencing#223
+// Offset 2350
+STR FB2
+OR FB8
+OR FB10
+OR FB12
+OR FB32
+OR FB33
+OR FB34
+OR FB31
+OR FB35
+OR FB36
+OR FB37
+OR FB30
+RST C230
+RST C231
+RST C232
+RST C233
+RST C234
+
+// Rung MainSequencing#224
+// Offset 2367
+STRN C70
+ANDN FB6
+ANDN FB7
+ANDN FB8
+ANDN FB10
+ANDN FB11
+ANDN FB2
+ANDN C223
+ANDN C230
+ANDN C231
+ANDN C232
+ANDN C233
+ANDN C234
+AND T10.Done
+ANDN FB32
+ANDN FB33
+ANDN FB34
+ANDN FB31
+ANDN FB35
+ANDN FB36
+ANDN FB37
+ANDN FB30
+ANDN FB12
+OUT C237
+
+// Rung MainSequencing#225
+// Offset 2391
+STR C237
+ANDN C210
+ANDPD C47
+SET C230
+
+// Rung MainSequencing#226
+// Offset 2396
+STR C230
+SET C231
+RST C230
+
+// Rung MainSequencing#227
+// Offset 2399
+STR ST1
+MATH D30 "V2103 * 10"
+
+// Rung MainSequencing#228
+// Offset 2408
+STR C231
+TMR T31 9000
+
+// Rung MainSequencing#229
+// Offset 2411
+STR C231
+AND X11
+ANDN X9
+ANDN X10
+ANDPDPF
+MOVE T31.Acc V1881
+
+// Rung MainSequencing#230
+// Offset 2418
+STR C231
+AND X11
+TMR T30 D30
+
+// Rung MainSequencing#231
+// Offset 2422
+STR C222
+AND C231
+RST C231
+RST C222
+
+// Rung MainSequencing#232
+// Offset 2426
+STR C231
+AND T30.Done
+SET C232
+RST C231
+
+// Rung MainSequencing#233
+// Offset 2430
+STR C232
+AND X9
+TMR T105 D2135
+
+// Rung MainSequencing#234
+// Offset 2434
+STR T105.Done
+SET C233
+RST C232
+
+// Rung MainSequencing#235
+// Offset 2437
+STRPD C233
+MOVE 0 R23
+
+// Rung MainSequencing#236
+// Offset 2441
+STR C233
+MATH R28 "(V1803 - R153) / 10"
+
+// Rung MainSequencing#237
+// Offset 2452
+STR C233
+STRGE R23 R28
+ORE V1803 0
+ANDSTR
+RST C233
+
+// Rung MainSequencing#238
+// Offset 2463
+NOP
+
+// Rung MainSequencing#239
+// Offset 2464
+#BEGIN COMMENT 
+"Parameter Limits"
+#END
+
+NOP
+
+// Rung MainSequencing#240
+// Offset 2465
+STRLT V2225 450
+MOVE 450 V2225
+
+// Rung MainSequencing#241
+// Offset 2471
+STRLT V2225 V2101
+MOVE V2225 V2101
+
+// Rung MainSequencing#242
+// Offset 2477
+STRLT V2225 V2102
+MOVE V2225 V2102
+
+// Rung MainSequencing#243
+// Offset 2483
+STRLT V2140 1
+MOVE 1 V2140
+
+// Rung MainSequencing#244
+// Offset 2489
+STRGT V2140 2
+MOVE 2 V2140
+
+// Rung MainSequencing#245
+// Offset 2495
+#BEGIN FMT_COMMENT 
+"Zero out off delay if in one shot mode"
+#END
+
+STRGT V2140 1
+MOVE 0 V2124
+
+// Rung MainSequencing#246
+// Offset 2501
+STRLT V2104 3
+MOVE 3 V2104
+
+// Rung MainSequencing#247
+// Offset 2507
+STR ST1
+MATH D2106 "V2104"
+
+// Rung MainSequencing#248
+// Offset 2514
+STRLT V2105 10
+MOVE 10 V2105
+
+// Rung MainSequencing#249
+// Offset 2520
+STRGE V2124 20
+MOVE 20 V2124
+
+// Rung MainSequencing#250
+// Offset 2526
+STR ST1
+MATH R80 "(R49 - (TOREAL(V2110) * 0.1 * (TOREAL(V2110) * R5 * 0.006) * 10)) - 1"
+
+// Rung MainSequencing#251
+// Offset 2551
+STRLT V2111 10
+MATH V2111 "10"
+
+// Rung MainSequencing#252
+// Offset 2561
+#BEGIN FMT_COMMENT 
+"Max Stage is 2/10 less than calculated theoretical because "
+"of rounding and<br>"
+"it is not possible to look at bits Pt 000 or pt 001 for "
+"front of package"
+#END
+
+STRGE R80 12
+MATH V1799 "ROUND(R80) - 2"
+
+// Rung MainSequencing#253
+// Offset 2574
+STRLT R80 12
+MATH V1799 "10"
+
+// Rung MainSequencing#254
+// Offset 2584
+STRLT V2112 2
+MOVE 2 V2112
+
+// Rung MainSequencing#255
+// Offset 2590
+STRGE V2115 2
+MOVE 1 V2115
+
+// Rung MainSequencing#256
+// Offset 2596
+STRLT V2116 1
+MOVE 1 V2116
+
+// Rung MainSequencing#257
+// Offset 2602
+STRGT V2116 3
+MOVE 3 V2116
+
+// Rung MainSequencing#258
+// Offset 2608
+STRLT V2117 1
+MOVE 1 V2117
+
+// Rung MainSequencing#259
+// Offset 2614
+STRGT V2117 2
+MOVE 2 V2117
+
+// Rung MainSequencing#260
+// Offset 2620
+STRLT V2133 1
+MOVE 1 V2133
+
+// Rung MainSequencing#261
+// Offset 2626
+STRLT V2139 1
+MOVE 1 V2139
+
+// Rung MainSequencing#262
+// Offset 2632
+STRGT V2139 5
+MOVE 5 V2139
+
+// Rung MainSequencing#263
+// Offset 2638
+STRE V2131 0
+MOVE 1 V2131
+
+// Rung MainSequencing#264
+// Offset 2644
+STRGE V2135 1000
+MOVE 10000 D2135
+MOVE 1000 V2135
+
+// Rung MainSequencing#265
+// Offset 2652
+STRLT V2135 1000
+MATH D2135 "V2135 * 10"
+
+// Rung MainSequencing#266
+// Offset 2664
+STRLT V2226 0
+MOVE 0 V2226
+
+// Rung MainSequencing#267
+// Offset 2670
+STRGT V2226 1
+MOVE 1 V2226
+
+// Rung MainSequencing#268
+// Offset 2676
+STRLT V2227 10
+MOVE 100 D2227
+
+// Rung MainSequencing#269
+// Offset 2682
+STRGE V2227 50
+MOVE 500 D2227
+
+// Rung MainSequencing#270
+// Offset 2688
+STRGE V2227 10
+ANDLT V2227 50
+MATH D2227 "V2227 * 10"
+
+// Rung MainSequencing#271
+// Offset 2704
+#BEGIN COMMENT 
+"Time Out"
+#END
+
+STRGE D2251 400
+ANDNE V2224 V2256
+ANDNE V2224 0
+OUT C250
+
+// Rung MainSequencing#272
+// Offset 2717
+STRE V2256 V2224
+MOVE 0 V2224
+
+// Rung MainSequencing#273
+// Offset 2723
+NOP
+
+// Rung MainSequencing#274
+// Offset 2724
+NOP
+
+// Rung MainSequencing#275
+// Offset 2725
+#BEGIN COMMENT 
+"Optional Tunnel and Wrapper Ready to Run"
+#END
+
+STR C223
+AND X24
+OUT Y15
+
+// Rung MainSequencing#276
+// Offset 2728
+#BEGIN COMMENT 
+"Optional Bag Press Air Cylinder"
+#END
+
+STR C654
+OR C655
+OR C656
+OUT Y14
+
+// Rung MainSequencing#277
+// Offset 2732
+#BEGIN COMMENT 
+"Optional Poly Air Blast"
+#END
+
+STR X9
+ANDN T100.Done
+ANDNE V2145 0x0
+OUT C600
+
+// Rung MainSequencing#278
+// Offset 2739
+STR ST1
+MATH D2145 "V2145 * 100"
+
+// Rung MainSequencing#279
+// Offset 2748
+STR X9
+TMR T100 D2145
+
+// Rung MainSequencing#280
+// Offset 2751
+NOP
+
+// Rung MainSequencing#281
+// Offset 2752
+NOP
+
+// Rung MainSequencing#282
+// Offset 2753
+END
+
+// End of Code Block MainSequencing
+$PGMEND MainSequencing
+
+// Code Block TempControl cannot be exported
+
+// Code Block RecipeAndSDcard cannot be exported
+
+// Code Block TimeDate cannot be exported
+
+// Code Block CountsHoursTach cannot be exported
+
+// Code Block OptInfdGate17 cannot be exported
+
+// Beginning of Code Block ClosingConv17
+$PRGRM ClosingConv17
+
+// Rung ClosingConv17#1
+// Offset 0
+STRLT V2113 1
+MOVE 1 V2113
+
+// Rung ClosingConv17#2
+// Offset 6
+STRGT V2113 2
+MOVE 2 V2113
+
+// Rung ClosingConv17#3
+// Offset 12
+STRPD Y5
+AND X16
+ANDN FB30
+ANDN FB2
+ANDN C222
+ANDN C210
+STR X16
+AND C210
+ORSTR
+ANDE V2113 2
+SET FB12
+
+// Rung ClosingConv17#4
+// Offset 27
+STRNE V2113 2
+OR FB30
+OR C240
+RST FB12
+
+// Rung ClosingConv17#5
+// Offset 34
+NOP
+
+// Rung ClosingConv17#6
+// Offset 35
+NOP
+
+// Rung ClosingConv17#7
+// Offset 36
+NOP
+
+// Rung ClosingConv17#8
+// Offset 37
+STR X8
+TMR T122 500
+
+// Rung ClosingConv17#9
+// Offset 40
+STRPD Y4
+ANDE V2113 2
+ANDN FB12
+AND T122.DN
+SET C121
+
+// Rung ClosingConv17#10
+// Offset 49
+STR C121
+OR C122
+TMR T120 800
+
+// Rung ClosingConv17#11
+// Offset 53
+STR Y5
+RST C121
+
+// Rung ClosingConv17#12
+// Offset 55
+STRND X16
+RST C121
+ANDN ST1
+AND ST1
+SET C122
+
+// Rung ClosingConv17#13
+// Offset 61
+STR C122
+ANDND X16
+RST C122
+
+// Rung ClosingConv17#14
+// Offset 65
+STR T120.DN
+ANDN FB2
+ANDN C210
+SET FB12
+
+// Rung ClosingConv17#15
+// Offset 69
+STR C240
+OR FB12
+ORNE V2113 2
+OR FB2
+RST C122
+RST C121
+
+// Rung ClosingConv17#16
+// Offset 78
+STRN Y13
+AND X13
+ANDE V2113 2
+TMR T28 1000
+
+// Rung ClosingConv17#17
+// Offset 86
+STR T28.DN
+ANDN C210
+SET FB11
+
+// Rung ClosingConv17#18
+// Offset 89
+STR C240
+ORNE V2113 2
+OR C210
+RST FB11
+
+// Rung ClosingConv17#19
+// Offset 96
+#BEGIN COMMENT 
+"Optional Closing Conveyor"
+#END
+
+STR Y13
+AND T70.Done
+ANDN FB10
+TMR T77 1000
+
+// Rung ClosingConv17#20
+// Offset 101
+STRE V2113 0x2
+ANDN X13
+AND T77.Done
+STR FB10
+ANDN C240
+ORSTR
+ANDN C210
+OUT FB10
+
+// Rung ClosingConv17#21
+// Offset 112
+STRN Y13
+ANDN X12
+ANDE V2113 2
+ANDN C210
+ANDN C124
+TMR T78 1000
+
+// Rung ClosingConv17#22
+// Offset 122
+STR T78.DN
+SET FB6
+
+// Rung ClosingConv17#23
+// Offset 124
+STR C240
+ORNE V2113 2
+OR C210
+RST FB6
+
+// Rung ClosingConv17#24
+// Offset 131
+#BEGIN COMMENT 
+"Optional Closing Conveyor"
+#END
+
+STR Y13
+AND T70.Done
+ANDN FB7
+TMR T79 1000
+
+// Rung ClosingConv17#25
+// Offset 136
+STRE V2113 0x2
+AND X12
+AND T79.Done
+STR FB7
+ANDN C240
+ORSTR
+ANDN C210
+ANDN C124
+OUT FB7
+
+// Rung ClosingConv17#26
+// Offset 148
+STR Y5
+ANDND X16
+ANDE V2113 0x2
+ANDN C210
+SET FB8
+
+// Rung ClosingConv17#27
+// Offset 157
+STR Y4
+ANDPD X16
+ANDE V2113 0x2
+ANDN C210
+SET FB8
+
+// Rung ClosingConv17#28
+// Offset 166
+STR C240
+ORNE V2113 0x2
+OR C210
+RST FB8
+
+// Rung ClosingConv17#29
+// Offset 173
+STRND X16
+OUT C180
+
+// Rung ClosingConv17#30
+// Offset 176
+STR C240
+ORPD X8
+ORND FB10
+ORND FB2
+ANDE V2113 2
+ANDPDPF
+OUT C181
+
+// Rung ClosingConv17#31
+// Offset 189
+STR C633
+OR C654
+OR C655
+OR C230
+OR C231
+STR Y13
+ANDN C180
+ANDN C181
+ORSTR
+STR FB10
+ANDN C181
+ORSTR
+STR FB2
+ANDN C181
+ORSTR
+ORE V2113 0x1
+STRN X8
+ANDN C181
+ORSTR
+OR X16
+ANDN C210
+STR C210
+AND X16
+ORSTR
+STR C210
+ANDE V2113 0x1
+ORSTR
+OR FB8
+OUT Y13
+
+// Rung ClosingConv17#32
+// Offset 224
+END
+
+// End of Code Block ClosingConv17
+$PGMEND ClosingConv17
+
+// Code Block FilmFeed17 cannot be exported
+
+// Code Block HMIandMessaging cannot be exported
+
+// Beginning of Code Block ConvCalibration
+$PRGRM ConvCalibration
+
+// Rung ConvCalibration#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"The following 2 rungs creates a file of bits set to 1 that "
+"are copied into <br>bit files that are shifted in specific "
+"places for operation"
+#END
+
+STR X8
+INC V2399
+OUT ones0
+MOVEBIT ones0 ones[V2399]
+
+// Rung ConvCalibration#2
+// Offset 6
+STRGE V2399 255
+MOVE 0 V2399
+
+// Rung ConvCalibration#3
+// Offset 12
+#BEGIN FMT_COMMENT 
+"High speed counter 2 is encoder signal from TP "
+"intermediate conveyor, the high speed counter is set up to "
+"measure up and down transitions on the count signal. So a "
+"1000 pulse per rev counter will produce 2000 counts per "
+"rev. The first rung reset the counter and register used to "
+"count 0.1 inch increments."
+#END
+
+STRPD Y19
+OUT $HsCtrTmr2.ResetEdge
+
+// Rung ConvCalibration#4
+// Offset 15
+STR ST1
+OUT $HsCtrTmr1.EnableTimer
+
+// Rung ConvCalibration#5
+// Offset 17
+STRN C176
+OUT $HsCtrTmr3.InhibitCount
+
+// Rung ConvCalibration#6
+// Offset 19
+#BEGIN FMT_COMMENT 
+"This rung converts time in microseconds from high speed "
+"counter per test<br>"
+"encoder pulse and hmi entered pulses per inch for test "
+"encoder into 1/10 fpm<br>speed"
+#END
+
+STRGT R32 0
+ANDGT $HsCtrTmr1.LastTime 0
+MATH R87 "5000000 / ($HsCtrTmr1.LastTime * R32)"
+
+// Rung ConvCalibration#7
+// Offset 38
+STRN C171
+MOVE 3 V9998
+
+// Rung ConvCalibration#8
+// Offset 41
+STR ST1
+MOVE 200 V9999
+
+// Rung ConvCalibration#9
+// Offset 44
+STRGT R32 0
+MATH R31 "($HsCtrTmr3.Acc * 1) / R32"
+
+// Rung ConvCalibration#10
+// Offset 58
+STRGT R31 0
+OUT C202
+
+// Rung ConvCalibration#11
+// Offset 63
+STRGT R31 0.0
+MATH R36 "R30 / R31"
+
+// Rung ConvCalibration#12
+// Offset 76
+STRLT R36 0.99
+ORGT R36 1.01
+AND C202
+OUT C193
+
+// Rung ConvCalibration#13
+// Offset 88
+STRGE R36 0.99
+ANDLE R36 1.01
+AND C202
+OUT C194
+
+// Rung ConvCalibration#14
+// Offset 100
+STRPD C168
+SET C167
+
+// Rung ConvCalibration#15
+// Offset 103
+STRPD C167
+ORPD C52
+ORPD C51
+ORPD C54
+MEMCLEAR V10000 800
+MOVE 0 R30
+OUT $HsCtrTmr3.ResetLevel
+
+// Rung ConvCalibration#16
+// Offset 117
+STR C167
+TMR T227 2000
+
+// Rung ConvCalibration#17
+// Offset 120
+STRGE T227.Acc D200
+ANDPDPF
+ANDNE D200 0
+SET C171
+
+// Rung ConvCalibration#18
+// Offset 130
+STRGE T227.Acc D201
+ANDPDPF
+ANDNE D201 0
+SET C171
+
+// Rung ConvCalibration#19
+// Offset 140
+STRGE T227.Acc D202
+ANDPDPF
+ANDNE D202 0
+SET C171
+
+// Rung ConvCalibration#20
+// Offset 150
+STRGE T227.Acc D205
+ANDPDPF
+ANDNE D205 0
+RST C171
+
+// Rung ConvCalibration#21
+// Offset 160
+STRGE T227.Acc D206
+ANDPDPF
+ANDNE D206 0
+RST C171
+
+// Rung ConvCalibration#22
+// Offset 170
+STRGE T227.Acc D207
+ANDPDPF
+ANDNE D207 0
+RST C171
+
+// Rung ConvCalibration#23
+// Offset 180
+STRGE T227.Acc D210
+ANDPDPF
+ANDNE D210 0
+SET C176
+
+// Rung ConvCalibration#24
+// Offset 190
+STRGE T227.Acc D211
+ANDPDPF
+ANDNE D211 0
+SET C176
+
+// Rung ConvCalibration#25
+// Offset 200
+STRGE T227.Acc D212
+ANDPDPF
+ANDNE D212 0
+SET C176
+
+// Rung ConvCalibration#26
+// Offset 210
+STRGE T227.Acc D215
+ANDPDPF
+ANDNE D215 0
+RST C176
+
+// Rung ConvCalibration#27
+// Offset 220
+STRGE T227.Acc D216
+ANDPDPF
+ANDNE D216 0
+RST C176
+
+// Rung ConvCalibration#28
+// Offset 230
+STRGE T227.Acc D217
+ANDPDPF
+ANDNE D217 0
+RST C176
+
+// Rung ConvCalibration#29
+// Offset 240
+STR C52
+SET C176
+
+// Rung ConvCalibration#30
+// Offset 242
+STR T227.DN
+ANDN C52
+RST C171
+RST C176
+RST C167
+
+// End of Code Block ConvCalibration
+$PGMEND ConvCalibration
+
+// Beginning of Code Block copy
+$PRGRM copy
+
+// Rung copy#1
+// Offset 0
+NOP
+
+// End of Code Block copy
+$PGMEND copy
+
+// Beginning of Code Block ModbusComms
+$PRGRM ModbusComms
+
+// Rung ModbusComms#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"11/29/2023 (j. dukelow):  MC2 (Modbus coil 00103), which "
+"is Stop Request sent by B&R master line controller to place "
+"the shrink wrapper in Auto-Pause mode."
+#END
+
+STR MC3
+OUT X19
+
+// Rung ModbusComms#2
+// Offset 2
+#BEGIN FMT_COMMENT 
+"2/15/2024 (j. dukelow):  PLC will energize MC1 (Modbus "
+"coil 00001) when C60 (HMI alarm indicator) is NOT active. "
+"(indicates that Shrink-Wrap system is ready)"
+#END
+
+STRN C60
+OUT MC1
+
+// Rung ModbusComms#3
+// Offset 4
+#BEGIN FMT_COMMENT 
+"2/15/2024 (j. dukelow):  PLC will energize MC2 (Modbus "
+"coil 00002) when C60 (HMI alarm indicator) is active. "
+"(indicates that Shrink-Wrap system is in error mode)"
+#END
+
+STR C60
+OUT MC2
+
+// End of Code Block ModbusComms
+$PGMEND ModbusComms
+
+#BEGIN ELEMENT_DOC
+"X2","","","External Jog Discxharge","X12"
+"X3","","","Registration Eye","X3"
+"X4","","","Scrap Rewind Broken Switch","X4"
+"X5","","","Film Feed Switch","X5"
+"X6","","","Product Detect Eye - Horizontal PE2","X6"
+"X7","","","Product Detect Eye  - Vertical PE3","X7"
+"X8","","","MCR","X8"
+"X9","","","Cross Seal Safety Switch (Side Seal ) Right Side"
+"X10","","","Cross Seal Safety Switch Left Rear Side"
+"X11","","","Cross Seal Override","X11"
+"X12","","","Closing conveyor switch  cylinder switch in extend position"
+"X13","","","Closing conveyor switch  cylinder switch in retract position","X13"
+"X14","","","Infeed or Disch  Freq Drive OL Fault","X14"
+"X15","","","Scrap getting full eye","X15"
+"X16","","","Open closing conv prox, goes from off to on when head closing, stays on until lower pad goes below where closing conv can close"
+"X17","","","Dancer bar Lifted  (when goes off)"
+"X18","","","Felins Product @ Infeed Eye","X18"
+"X19","","","Discharge Back Up","X19"
+"X24","","","Tunnel Ready to Run","X24"
+"X25","","","Optional Conv Product Length Check Eye","X25"
+"X26","","","Optional Straightner Conv Prod Detect On Delay","X26"
+"X27","","","opt conv reset button","X27"
+"X28","","","Optional Low Film Photoeye On When End of Roll Detected"
+"X29","","","Auxilliary Auto Input"
+"Y0","","","Side Seal Heater Power Control Solid State Relay"
+"Y1","","","Cross Seal Heater Power Control Solid State Relay"
+"Y2","","","Reset MCR Circuit Relay  R2"
+"Y3","","","Side Seal Air Cylinder Solenoid Valve. Down when energized"
+"Y4","","","Cross Seal Actuator Solenoid Valve Open"
+"Y5","","","Cross Seal Actuator Solenoid Valve Close"
+"Y6","","","Alarm Output (Red Light)"
+"Y7","","","Film Feed Relay"
+"Y8","","","Auto Mode Output"
+"Y9","","","Relay to Remove Power From Temp. Control Solid State Relays in case of a problem with Thermocouples or run away Temp. because of shorted SSR "
+"Y10","","","Power On (Green Light)"
+"Y11","","","Output Signal to Run Auxilliary Infeed Conveyor "
+"Y12","","","Optional Hole Punch"
+"Y13","","","Optional Closing conv , energize to retract"
+"Y14","","","Optional Bag Press Air Cylinder"
+"Y15","","","Optional Interlock Out (Tunnel and Wrapper Ready to Run)"
+"Y16","","","Reset Freq Drives"
+"Y17","","","Soft Start Select Freq Drives (Use 0.4 sec ramp when on and 0.1 sec ramp when off)"
+"Y18","","","Infeed Conv Motor VFD Run"
+"Y19","","","Discharge Conveyor / Side Seal VFD Run"
+"Y20","","","not used"
+"Y21","","","Optional Side Seal Clutch Disengage (When in run through mode)"
+"Y22","","","Opt Feed Conv Gate Close SV","Y110"
+"Y23","","","Opt Feed Conv Prod Length Alarm LIght","Y111"
+"WX0","","","Cross Seal Temp Transmitter Analog Input 4- 20ma"
+"WX1","","","Side Seal Temp Transmitter Analog Input 4-20ma"
+"C3","","","Cycle Timer","C3"
+"C8","","","Write to SD Card success"
+"C9","","","Write to SD Card Error"
+"C11","","","One Shot Calc Speed","C11"
+"C12","","","Reset hour timer"
+"C17","","","Conveyor that pulls film Jog in one shot mode",""
+"C18","","","Safety System needs to be Checked After Power Up"
+"C19","","","Manual Seal was made without jam after power up."
+"C20","","","Add to packages per bundle count","C20"
+"C22","","","Cycle stopping","C22"
+"C23","","","seal in estop / guard meg"
+"C26","","","eye signal"
+"C28","","","simulated eye signal"
+"C29","","","simulate off"
+"C30","","","Product Detected","C26"
+"C31","","","Thermocouple problem","C31"
+"C34","","","Thermocouple Module Fault"
+"C37","","","Reset button from hmi","C45"
+"C38","","","Film Feet Counted Out"
+"C39","","","Display Film Feed Counted Out Reset Button on HMI"
+"C41","","","Button From HMI to Jog Servo Seal Head Up"
+"C42","","","Button From HMI to Jog Servo Seal Head Down"
+"C44","","","Button from HMI to move suggested setup values into recipe"
+"C45","","","Reset button from hmi","C45"
+"C46","","","Auto Button from HMI","C46"
+"C47","","","HMI button Manual Seal","C47"
+"C48","","","From HMI, Button to Run Infeed conv 20 inches to check calibration"
+"C49","","","From HMI, Button to Run Disch conv 20 inches to check calibration"
+"C50","","","HMI button reset NR counter","C50"
+"C51","","","Jog Disch conv HMI PB","C51"
+"C52","","","Jog 'Infeed and Disch conv HMI PB","C52"
+"C53","","","Jog to next registration mark HMI PB"
+"C54","","","Jog Infeed and Aux conveyor HMI button"
+"C55","","","Next screen pushbutton in maint mode","C55"
+"C56","","","HMI Film Feet Counted Out Reset Button"
+"C57","","","Display registration adjust numeric entry on hmi"
+"C58","","","Display package trail numeric entry on hmi"
+"C59","","","To HMI in Registration Mode"
+"C60","","","HMI Alarm Indicator","C60"
+"C61","","","HMI Automatic Indicator","C61"
+"C62","","","HMI Power On Indicator","C62"
+"C65","","","HMI  Turn on vfd run signal for time button"
+"C66","","","MCR Dropped Out","C66"
+"C68","","","Set time button from hmi"
+"C69","","","Reset counter, etc button from sts 2 screen on hmi"
+"C70","","","Jog button pressed","C70"
+"C77","","","stage latch in bit"
+"C80","","","Display Dave Face on HMI when going into auto"
+"C84","","","closing conveyor fault","C124"
+"C88","","","test disch conveyor reaction -- start disch conv after eye signal "
+"C89","","","test disch conveyor reaction  - run infeed conveyor"
+"C90","","","Activate conv test (make it so discharge conv starts after eye signal)"
+"C100","","","Discharge Back Up Pause Auto Mode","C100"
+"C115","","","HMI Copy table button","C115"
+"C116","","","Copy table step2","C116"
+"C117","","","C117 HMI Recipe Copy Step 1"
+"C118","","","Allow copy into recipe in use"
+"C120","","","eliminate power up cross seal open pulse","C120"
+"C121","","","Closing conv head open prox went on to off"
+"C122","","","Closing Conv. Head Position Sensor Went off to on , check if then went on to off"
+"C124","","","On if only has a retract closing conv prox, off if has both a retract and extend closing conv prox"
+"C126","","","low batt revert screen to zero one shot","C126"
+"C140","","","Jog Run disch conv to next registration mark"
+"C145","","","Jam Detected","C221"
+"C147","","","high speed hole punch engage"
+"C152","","","Manual Cross Seal Step 0","C230"
+"C153","","","Manual Cross Seal Step 1","C231"
+"C160","","","Display Button indicating more alarm infor available"
+"C161","","","HMI button to view more alarm information","C161"
+"C167","","","Run conveyor movement test routine"
+"C168","","","Button from HMI to run conveyor movement test routine"
+"C170","","","Step 1 Set Speed and soft start for conv 20 inches to check calibration"
+"C171","","","Run conveyors to test movement"
+"C172","","","Step 1 Set Speed and soft start for conv 0.5 inches to check calibration"
+"C173","","","Step 2 Run conveyors for 0.5 inches for calibration check"
+"C174","","","Conv calibration check, turn on vfd run signal forr time pulse"
+"C176","","","allow test encoder and plc calculated movement for comparison counters"
+"C180","","","extend closing conv"
+"C181","","","extend closing conv on mcr and close conv selected"
+"C193","","","Conv calibration is not within 1%"
+"C194","","","Conv calibration is within 1%"
+"C195","","","To HMI, BRX PLC with I/O cards rather than brick I/O being used"
+"C196","","","registration mode"
+"C197","","","Display PLC battery Low indicator on main hmi screen"
+"C198","","","Multi-Pack Mode enable adjust space between packs in a bundle parameter on hmi"
+"C199","","","One Shot Mode enable one shot length parameter and hide off delay parameter on hmi when in one shot mode"
+"C200","","","Maint mode password accepted, make visibile ""next screen"" button on HMI","C200"
+"C201","","","STS mode password accepted, make visibile ""next screen"" button on HMI","C201"
+"C202","","","Display Belt movement measured by test encoder on HMI jog pop up"
+"C206","","","one shot, closing prox went off while opening","C316"
+"C208","","","Display Parameter Locked Bar on Main HMI Screen"
+"C209","","","Enable Changing Parameters on Operator Parameter Screen"
+"C210","","","RUN THROUGH MODE Hide parameters on HMI when in run through mode"
+"C211","","","one shot","C211"
+"C215","","","Run infeed conv. in reg mode bagger operation","C215"
+"C220","","","Jog Enable","C220"
+"C222","","","Jam Storage - Not Maintained","C222"
+"C223","","","Auto Mode","C223"
+"C224","","","Run Infeed Conv in Auto","C224"
+"C225","","","Run Disch Conv in Auto","C225"
+"C226","","","Run Cross Seal in Auto","C226"
+"C227","","","Run Cross Seal Not in Auto","C227"
+"C230","","","Manual Cross Seal Step 0","C230"
+"C231","","","Manual Cross Seal Step 1","C231"
+"C232","","","Manual Cross Seal Step  2","C232"
+"C233","","","Manual Cross Seal Step  3","C233"
+"C234","","","Manual Cross Seal Step  4","C234"
+"C237","","","Allow manual seal"
+"C240","","","reset one shot","C240"
+"C241","","","One Shot","C241"
+"C244","","","Infeed Advance Activated","C244"
+"C250","","","Time Out","C250"
+"C253","","","poly mode run film feed","C253"
+"C254","","","one shot poly stop","C254"
+"C255","","","oneshot poly restart","C255"
+"C256","","","poly run","C256"
+"C257","","","Auto One Shot","C257"
+"C260","","","One Shot Auto Button","C260"
+"C265","","","One Shot seal after jog when in auto","C265"
+"C270","","","used to measure eye blocked  pkg length"
+"C271","","","used to measure gap between packages from eye unblocked"
+"C272","","","used to measure pkg length after off delay or one shot control"
+"C273","","","used to measure gap between packages after off delay or one shot"
+"C277","","","Positioning Packages in the Bundle"
+"C311","","","Package seen, now look for registration mark"
+"C316","","","one shot, closing prox went off while opening","C316"
+"C384","","","Lube System/Poly Air Blast...Not used","C600"
+"C400","","","Simulate pkg indicator on hmi"
+"C401","","","Cross Seal Full Height Button from HMI"
+"C402","","","Cross seal full height selected indicator on HMI"
+"C440","","","ONE SHOT"
+"C500","","","Wait for Eye to Clear","C500"
+"C507","","","SD Card is ready to write to"
+"C508","","","A Set Point Changed, Save Program Image"
+"C510","","","Conv Prod Length Fault","C510"
+"C515","","","one shot conv prod length check eye clear","C515"
+"C516","","","C516"
+"C600","","","Optional Poly Air Blast...Not used","C600 is placeholder"
+"C601","","","seal no step 1"
+"C607","","","If On, ""cycle stop"" takes out of auto after each pack within a bundle. If off, takes out of auto after seal completes "
+"C612","","","inhibit conv motion during debug simulation testing"
+"C613","","","inhibit conv motion during debug simulation testing - switch on"
+"C614","","","debug stop motion bit"
+"C615","","","Message Registration Mark Seen Too Soon"
+"C616","","","Package at postion to stop infeed to stage"
+"C617","","","Eye signal tracked and compensated for off delay"
+"C618","","","Cross Sealer in No Step","C310"
+"C619","","","spare step"
+"C621","","","Seq step 2.  Run distance after internal pkg trail off point before ramp down (run disch conveyor only, infeed conveyor in stage mode)"
+"C622","","","step 3 Rear of last prod in bundle seen, now turn off discharge conveyor and let it ramp to position to seal"
+"C623","","","step 4 turn off disch conv and let it ramp down"
+"C631","","","Seq step 4. Run discharge conv and keep infeed conv in stage mode until registration mark plus offset is on."
+"C632","","","spare step"
+"C633","","","Seq step 6. Goto Seal Start"
+"C641","","","Reg Mark Step 1 Run disch conv to pull registered film until it as at the the point to shut off disch conv to allow it to ramp to position"
+"C642","","","Reg Mark Step 2, run disch conv until conv needs to shut off to ramp to position"
+"C643","","","Reg Mark Step 3, Turn Off discharge conv and let disch conv coast registration to position for sealing"
+"C644","","","Reg Mark Step 4, Registration in position to seal corrected for seal delay or advance"
+"C654","","","Seal Step 1, Turn On close SV, Wait for Seal Safety Switch to Go Off and Override prox to go on"
+"C655","","","Seal Step 2, Keep close SV on, Time out dwell timer"
+"C656","","","Seal Step 3, Close SV off, wait for safety switches to go on"
+"C657","","","Seal step 4a , Bump disch conv on"
+"C658","","","Seal step 4b , Allow bump discharge to ramp down to final position"
+"C659","","","Seal step 5a, Bump disch timer done"
+"C660","","","Seal step 4b, Wait for seal to open"
+"C661","","","Seal step 5b, delay after seal open complete"
+"C665","","","Keep the discharge vfd on even after seal jaw has been activated (because of advance)"
+"C714","","","simulate cross seal override sensor not coming on"
+"C715","","","Simulate safety switches not coming on Jam left"
+"C716","","","simulate safety switches never came on left"
+"C717","","","simulate safety switches never went off left"
+"C718","","","simulate test both sides safety swithes not going on"
+"C720","","","simulate cross seal jam"
+"C721","","","simulate cross seal override switch did not come on"
+"C724","","","Simulate override switch input stuck on"
+"C725","","","Simulate safety switches not coming on Jam right"
+"C726","","","simulate safety switches never came on right"
+"C727","","","simulate safety switches never went off right"
+"C728","","","Simulate end of film roll eye"
+"C729","","","sim used for mcr"
+"C730","","","Simulate VFD fault input"
+"C731","","","Simulate scrap getting full eye input"
+"C732","","","Simulate Block signal from closing conveyor retract cylinder switch"
+"C733","","","Simulate Block signal from closing conveyor seal jaw sensor"
+"C738","","","simulate scrap rewind broken switch input"
+"C739","","","Simulate estop, guard not made"
+"C740","","","simulate discharge back up input"
+"C741","","","simulate horizontal product  eye"
+"C742","","","simulate cross seal tc below range"
+"C743","","","simulate cross seal tc above range"
+"C744","","","simulate side seal tc below range"
+"C745","","","simulate side seal tc above range "
+"C752","","","Simulate Block signal from closing conveyor extend cylinder switch"
+"C753","","","sim closing conv extend sw on"
+"C755","","","simulate registration eye input"
+"C756","","","sim closing conv retract sw on"
+"C757","","","Simulate signal from closing conveyor seal jaw sensor staying on"
+"C758","","","sim dancer bar"
+"C759","","","simulate on"
+"C800","","","Infeed drive movement simulate, motion has started"
+"C810","","","Infeed drive movement simulate, motion has started"
+"C1070","","","Servo Mode if this is on"
+"C1080","","","To_HMI_Servo Input 0"
+"C1081","","","To_HMI_Servo Input 1"
+"C1082","","","To_HMI_Servo Input 2"
+"C1083","","","To_HMI_Servo Input 3"
+"C1084","","","To_HMI_Servo Input 4"
+"C1085","","","To_HMI_Servo Input 5"
+"C1086","","","To_HMI_Servo Input 6"
+"C1087","","","To_HMI_Servo Input 7"
+"C1088","","","To_HMI_Servo Input 8"
+"C1089","","","To_HMI_Servo Input 9"
+"C1090","","","To_HMI_Servo Input 10"
+"C1091","","","To_HMI_Servo Input 11"
+"C1092","","","To_HMI_Servo Input 12"
+"C1093","","","To_HMI_Servo Input 13"
+"C1094","","","To_HMI_Servo Input 14"
+"C1095","","","To_HMI_Servo Input 15"
+"C1101","","","To_HMI_Servo Output 1"
+"C1102","","","To_HMI_Servo Output 2"
+"C1103","","","To_HMI_Servo Output 3"
+"C1104","","","To_HMI_Servo Output 4"
+"C1105","","","To_HMI_Servo Output 5"
+"C1106","","","To_HMI_Servo Output 6"
+"C1107","","","To_HMI_Servo Output 7"
+"C1870","","","When in Step 0, Product Not staged, And this is the first product in a bundle this is the point when discharge conveyor VFD is started"
+"C1871","","","WhenInStep 0,Prod Not staged,This is not the first product in a bundle, closing conv off,  this is point when disch conv VFD is  started"
+"C1872","","","WhenInStep 0,Prod Not staged,This is not the first product in a bundle, closing conv on,  this is point when disch conv VFD is  started"
+"C1874","","","Point where discharge conveyor vfd must shut off so rear of prod on disch conv ramps to the prod within bundle position with Closing conv off"
+"C1875","","","Point where discharge conveyor vfd must shut off so rear of prod on disch conv ramps to the prod within bundle position with Closing conv on"
+"C1876","","","Rear of last prod in bundle seen at point where disch vfd shuts off and disch conv starts ramping down"
+"V320","","","V500"
+"V500","","","V500"
+"V1030","","","Amount that package trailer timer times before cross seal begins","V2006"
+"V1051:5","","","Jog Down command to Seal Head Servo"
+"V1051:6","","","Jog Up command to Seal Head Servo"
+"V1122","_34","","Closing Con  1=off 2= on","V2142","34"
+"V1125","_37","","Poly mode air jet to break seal apart","V2145","37"
+"V1749","","","time it took for closing conv ""closed "" switch to go off when closing"
+"V1751","","","Setup 1 text display","V1751"
+"V1752","","","Setup 2 text display","V1752"
+"V1753","","","Setup 3 text display","V1753"
+"V1754","","","Setup 4 text display","V1754"
+"V1755","","","Setup 5 text display","V1755"
+"V1756","","","Setup 6 text display","V1756"
+"V1757","","","Setup 7 text display","V1757"
+"V1760","","","Setup 8 text display","V1760"
+"V1761","","","Setup 9 text display","V1761"
+"V1762","","","Setup 10 text display","V1762"
+"V1770","","","Screen # to HMI","V1770"
+"V1772","","","HMI Background Color 0=current, 1=green, 2=lime , 3=yellow 4=amber 5=red 6= off","V1772"
+"V1773:3","","","HMI 2nd from bottom function key LED","B1773.3"
+"V1773:4","","","HMI bottom function key LED","B1773.4"
+"V1774","","","Current screen # from HMI","V1774"
+"V1799","","","Display upper limit on HMI for stage distance from jaw"
+"V1800","","","Max Stage Position + 5"
+"V1801","","","Max Stage + Poly Advance + 5"
+"V1802","","","Advance for Front Bsg"
+"V1803","","","Calculated discharge advance"
+"V1881","","","How Many ms did it take to close seal jaw (display on HMI)"
+"V2000","","","Cross Seal SP-Actual"
+"V2001","","","Upper Side Seal SP-Actual"
+"V2010","","","Cross Seal PID Output 17- 1000"
+"V2011","","","Upper Side Seal PID Output 17-1000"
+"V2012","","","Lower Side Seal PID Output 17-1000"
+"V2013","","","Jog Mode / Jog One Shot Time in Seconds times 10","V2013"
+"V2014","","","scrap time out seconds","V2014"
+"V2015","","","Count Packages to Put in the Bundle","V2015"
+"V2021","","","Message center message 1","V2021"
+"V2022","","","More alarm info text on hmi","V2022"
+"V2024","","","Low Limit Deg F less than cross seal set point","V2024"
+"V2025","","","High Limit Deg F more than cross seal set point","V2025"
+"V2026","","","Low Limit less than side seal set point","V2026"
+"V2027","","","High Limit Deg F more than side seal set point","V2027"
+"V2040","","","Setup number storage 1","V2040"
+"V2041","","","Setup number storage 2","V2041"
+"V2042","","","V2042"
+"V2043","","","Current Set up number message displays text","V2043"
+"V2055","","","Need to Enter Maint Mode Number Message","V2055"
+"V2059","","","when locked display either pkg trail or reg offset param value"
+"V2060","","","Cross Seal Actual Temp","V2060"
+"V2061","","","Side Seal Actual Temp","V2061"
+"V2063","","","Maint mode number","V2063"
+"V2064","",""," Maint mode code entered from HMI","V2064"
+"V2065","","","Cross Seal Restrict Timer Set Point","V2065"
+"V2071","","","HMI Message # buffer","V2071"
+"V2074","","","From HMI, Conv calibration check vfd pulse run signal time ms from HMI"
+"V2075","","","Speed in Pkg/Min","V2075"
+"V2080","","","Count Jams where both jam switches went off"
+"V2081","","","Count jams where right side seal switch only went off"
+"V2082","","","Count jams where only left rear switch went off"
+"V2094","","","Pointer to datatable address for recipe notes for current receipe"
+"V2095","","","Copy from pointer for recipe notes database address"
+"V2096","","","Copy to pointer for recipe notes database address"
+"V2097","","","recipe copy from starting v register"
+"V2098","","","recipe copy to starting v register"
+"V2099","","","Recipe selected starting register"
+"V2100","","","Setup Number"
+"V2101","","","Current Data - Cross Seal Temp Setpoint","V2101","1"
+"V2102","","","Current Data - Side Seal Temp Setpoint","V2102","2"
+"V2103","","","Current Data -Cross Seal Setpoint"
+"V2104","","","Current Data - Rear Bag Length 0.1 inches"
+"V2105","","","Current Data - Cross Seal Restriction Number"
+"V2106","","","Package Length 0.1 inches for one shot mode"
+"V2107","","","+/- 0.1 inches adjustment of registered film placement from center of seal"
+"V2108","","","Film Feet Counter Set Point"
+"V2109","","","Test Paramter Front Bag Length (from this, run in, stage distance and advance is calculated)"
+"V2110","","","Belt Speed FPM"
+"V2111","","","Stage Distance Before Jaw 0.1 inches new","V2111","9"
+"V2112","","","Printed Film Print Spacing 0.1 inch"
+"V2113","","","","Closing Con  1=off 2= on"
+"V2114","","","Package Run Up 0.1 Inches"
+"V2115","","","Operator Lock","V2115","13"
+"V2116","","","Prod detect, 1 = horiz, 2 = vert, 3 = both","V2116","14"
+"V2117","","","Freq Drive Soft Start = 2, Normal = 1","V2117","15"
+"V2121","","","Cross Seal Advance / Delay negative = advance time 0=Off    Positive=Delay 0.01 seconds"
+"V2122","","","Bump disch conv Package Advance  for poly 0.1 in"
+"V2123","","","Test parameter Min prod length 0.1 inches 20 min"
+"V2124","","","Seal Eye Off Delay 0.1 in Setpoint","V2124","20"
+"V2125","","","SCrap Rewind Time Out"
+"V2126","","","not used"
+"V2127","","","not used"
+"V2130","","","not used"
+"V2131","","","Multipack Packages Per Bundle","V2131","25"
+"V2132","","","Adjust Gap between packs in a bundle +/- 0.1 inches"
+"V2133","","","Normal Mode=1, Registration Mode =2, Run Through Mode = 3"
+"V2134","","","Film Loop Timer","V2134","28"
+"V2135","","","Conveyor Start after Jaw Open Begins","V2135","29"
+"V2136","","","Jog Mode/ Jog One Shot inches"
+"V2137","","","Disch Delay After Stop","V2137","31"
+"V2139","","","Number of Jams in a Row before stopping"
+"V2140","","","Normal PKG Trail if 0, One shot if 1","V2140","32"
+"V2141","","","Product Length Limit 0.1 Inches"
+"V2142","","","Printed Film Mark position 1=Center of Imprint, 2= Between Imprints"
+"V2143","","","spare parameter"
+"V2144","","","Poly film loop mode time"
+"V2145","","","","Poly mode air jet to break seal apart"
+"V2146","","","Spare parameter","V2146","38"
+"V2147","","","Hole Burner 0.1 inches"
+"V2148","","","Auto Mode Time Out Minutes"
+"V2149","","","Auto Mode Time Out Seconds"
+"V2150","","","Air Hole Punch Mode 0=Off, 1=Microswitch, 2=CS Valves Open"
+"V2151","","","Set Up Help PKG Width"
+"V2152","","","Set Up Help PKG Height"
+"V2153","","","spare parameter"
+"V2154","","","spare parameter"
+"V2155","","","spare parameter"
+"V2156","","","Manual Setting Film Roll Position Scale 0.1 inches"
+"V2157","","","Spare parameter"
+"V2160","","","opt conv gate eye on delay"
+"V2161","","","opt conv gate close del"
+"V2162","","","opt conv prod length check"
+"V2163","","","opt prod length light on time"
+"V2164","","","Spare parameter"
+"V2165","","","Spare parameter"
+"V2166","","","Name text word 1 v2166- v2185 (15 words)"
+"V2199","","","Last recipe word"
+"V2205","","","Menu Copy From","V2205","69"
+"V2206","","","Menu Copy To","V2206","70"
+"V2207","","","Recipe Copy Security Code must match maint mode code to copy"
+"V2208","","","Disch conv off point to place back of package right at start of disch conv for packs within a bundle (0.1 inches after eye +100)"
+"V2209","","","Disch conv off point to place back of package in position to seal (desired distance from seal blade to back of package)(0.1 inches after eye+100"
+"V2221","","","Seal Low Temp Limit","V2050"
+"V2222","","","Seal High Temp Limit","V2051"
+"V2223","","","Seal Low Temp Shut Down","STS Parameter"
+"V2224","","","Time Out","STS Parameter"
+"V2225","","","temp setpoint maximum","STS Parameter"
+"V2226","","","All Recipes Operator Lock 0=unlock, 1= lock          STS Parameter"
+"V2227","","","Hole Punch Closed Time","STS Parameter"
+"V2228","","","Default package length 0.1 inches exceeded fault     STS Parameter"
+"V2229","","","Cross Seal Heater Power 100 for 30s, 66 for 17/22","STS Parameter"
+"V2230","","","Cross seal temp offset at 400 deg F                       STS Parameter"
+"V2231","","","STS Parameter Hot Knife Watchdog Timer Setpoint","All recipes                     STS Parameter"
+"V2232","","","Distance from registration eye to center of seal jaw 0.1 inches                           STS Parameter"
+"V2233","","","Distance between product detect eye and center of seal head                      STS Parameter"
+"V2234","","","Not Used  STS Parameter"
+"V2235","","","Not Used  STS Parameter"
+"V2240","","","Cross Seal Temp Transmitter Range Low 0.1 DegF                           STS Parameter"
+"V2241","","","Cross Seal Temp Transmitter Range High 0.1 DegF                            STS Parameter"
+"V2242","","","Side Seal Temp Transmitter Range Low 0.1 DegF  STS Parameter"
+"V2243","","","Side Seal Temp Transmitter Range High 0.1 DegF  STS Parameter"
+"V2247","","","Minimun hole burner spacing in 0.1 inches = FPM is converted to in/sec by multiplying by 2, then multiplied by minimum sec between pulses"
+"V2256","","","STS #","V2256"
+"V2260","","","Simulation parameter sts mode package length 0.1 inches"
+"V2261","","","Simulation parameter sts mode gap between packages 0.1 inches"
+"V2295","","","last pack in bundle if r60 = this value"
+"V2300","","","month from plc"
+"V2301","","","day from plc"
+"V2302","","","year from hmi"
+"V2303","","","hour from plc"
+"V2304","","","minute from plc"
+"V2305","","","second from plc"
+"V2310","","","month to plc"
+"V2311","","","day to plc"
+"V2312","","","year to hmi"
+"V2313","","","hour to plc"
+"V2314","","","minute to plc"
+"V2336","","","Suggested Front Bag"
+"V2337","","","Suggested Rear Bag"
+"V2371","","","Point A Stage Point Minus Current Infeed Ramp Distance"
+"V2372","","","Point B Stage Point (1/10 inch after eye where front of package stops when staging) "
+"V2373","","","Point C Stage Point Plus Run In Distance Minus Current Infeed Ramp Distance"
+"V2374","","","Point D Hand Off (to discharge conveyor)When rear of product passes this Point in 1/10 inches after eye"
+"V2375","","","Point E Pack Within a Bundle Front Of Package Placement Adjusted for Tighness Minus Current Infeed Ramp Distance"
+"V2376","","","Point F Pack Within a Bundle Front Of Package Placement"
+"V2377","","","Point G Pack Within a Bundle Rear of Product Placement Minus Current Discharge Ramp Distance"
+"V2378","","","Point H Pack Within a Bundle Rear of Product Placement"
+"V2379","","","Point I Last Pack Before Seal Placement Minus Current Discharge Ramp Distance"
+"V2380","","","Point J Last Pack Before Seal Placement"
+"V2504","","","Lower Side Seal Actual Temp in 1/10 F","V2504"
+"V2525","","","Cross Seal Temp in 0.1 Deg F corrected for offset"
+"V2526","","","Side Seal Actual Temp in 1/10 F","V2502"
+"V2527","","","Lower side seal act temp in 1/10 F"
+"V3101","","","V3101"
+"V3102","","","V3102"
+"V3103","","","V3103"
+"V3104","","","V3104"
+"V3105","","","V3105"
+"V3106","","","V3106"
+"V3107","","","V3107"
+"V3110","","","V3110"
+"V3111","","","V3111"
+"V3112","","","V3112"
+"V3113","","","V3113"
+"V3114","","","V3114"
+"V3115","","","V3115"
+"V3116","","","V3116"
+"V3117","","","V3117"
+"V3120","","","V3120"
+"V3121","","","V3121"
+"V3122","","","V3122"
+"V3123","","","V3123"
+"V3124","","","V3124"
+"V3125","","","V3125"
+"V3126","","","V3126"
+"V3127","","","V3127"
+"V3130","","","V3130"
+"V3131","","","V3131"
+"V3132","","","V3132"
+"V3133","","","V3133"
+"V3134","","","V3134"
+"V3135","","","V3135"
+"V3136","","","V3136"
+"V3137","","","V3137"
+"V3140","","","V3140"
+"V3141","","","V3141"
+"V3142","","","V3142"
+"V3143","","","V3143"
+"V3144","","","V3144"
+"V3145","","","V3145"
+"V3146","","","V3146"
+"V3147","","","V3147"
+"V3150","","","V3150"
+"V3151","","","V3151"
+"V3152","","","V3152"
+"V3153","","","V3153"
+"V3154","","","V3154"
+"V3155","","","V3155"
+"V3156","","","V3156"
+"V3157","","","V3157"
+"V3160","","","V3160"
+"V3161","","","V3161"
+"V3162","","","V3162"
+"V3163","","","V3163"
+"V3164","","","V3164"
+"V3165","","","V3165"
+"V3166","","","V3166"
+"V3167","","","V3167"
+"V3170","","","V3170"
+"V3171","","","V3171"
+"V3172","","","V3172"
+"V3173","","","V3173"
+"V3174","","","V3174"
+"V3175","","","V3175"
+"V3176","","","V3176"
+"V3177","","","V3177"
+"V13001","","","Current Data - Cross Seal Temp Setpoint","V2101","1"
+"V13002","","","Current Data - Side Seal Temp Setpoint","V2102","2"
+"V13003","","","Current Data -Cross Seal Setpoint","V2103","3"
+"V13004","","","Current Data -Package Trail  Setpoint","V2104","4"
+"V13005","","","Current Data - Cross Seal Restriction Number","V2105","5"
+"V13006","","","Lower Side Seal Set Point Deg F","V2106","6"
+"V13007","","","Spare parameter","V2107","7"
+"V13010","","","Manual speed pot position","V2110","8"
+"V13011","","","Spare parameter","V2111","9"
+"V13012","","","Spare parameter","V2112","10"
+"V13013","","","Spare parameter","V2113","11"
+"V13014","","","Spare parameter","V2114","12"
+"V13015","","","Operator Lock","V2115","13"
+"V13016","","","Prod detect, 1 = horiz, 2 = vert, 3 = both","V2116","14"
+"V13017","","","Freq Drive Soft Start = 2, Normal = 1","V2117","15"
+"V13020","","","Hot Knife Watchdog Timer Setpoint","V2120","16"
+"V13021","","","Start Cross Seal at % of Pakg Trail Time Setpoint","V2121","17"
+"V13022","","","Package Advance Time Setpoint","V2122","18"
+"V13023","","","Seal Eye On Delay  Time Setpoint","V2123","19"
+"V13024","","","Seal Eye Off Delay Time Setpoint","V2124","20"
+"V13025","","","Scrap Tail Time Out","V2125","21"
+"V13026","","","Warm Up Cycles Setpoint","V2126","22"
+"V13027","","","Reset Warm Up Time Timer","V2127","23"
+"V13030","","","Auto Mode Time Out Minutes","V2130","24"
+"V13031","","","Multipack Packages Per Bundle","V2131","25"
+"V13032","","","Time Between Packages in Bundle","V2132","26"
+"V13033","","","Normal Mode =1,Registration=2, Run Through Mode=3","V2133","27"
+"V13034","","","Film Loop Timer","V2134","28"
+"V13035","","","Conveyor Start after Jaw Open Begins","V2135","29"
+"V13036","","","Jog Mode/ Jog One Shot Time in Seconds","V2136","30"
+"V13037","","","Disch Delay After Stop","V2137","31"
+"V13040","","","Normal PKG Trail if 0, One shot if 1","V2140","32"
+"V13041","","","Product Length Time Out 0.1 Sec","V2141","33"
+"V13042","","","Closing Con  1=off 2= on","V2142","34"
+"V13043","","","Infeed Delay (conditional pkg advance)","V2143","35"
+"V13044","","","Poly film loop mode tim","V2144","36"
+"V13045","","","Poly mode air jet to break seal apart","V2145","37"
+"V13046","","","Spare parameter","V2146","38"
+"V13047","","","Hole Burner Cycle Time","V2147","39"
+"V13048","","","spare parameter"
+"V13049","","","spare parameter"
+"V13050","","","Hole punch on off","V2150","40"
+"N55","","","Value that determines where bit is placed in package tracking shift register "
+"N56","","","Where to place the package  detect bit in the package tracking shift register PT for off delay"
+"N59","","","Keep Track of Off Delay"
+"N80","","","Used to measure pkg length"
+"N81","","","Measured pkg length in 0.1 inches"
+"N94","","","Unnormal Short Eye Blocked Counter length to check 0.1 inches"
+"N95","","","Unnormal Short Eye Blocked Counter"
+"N96","","","Unnormal Short Prod Len after Off Delay or One Shot  length to check 0.1 inches"
+"N97","","","Unnormal Short Prod Len after Off Delay or One Shot"
+"N100","","","Used to measure gap between packages in 0.1 inches"
+"N101","","","Gap measured between packages in 0.1 inches"
+"N114","","","Unnormal Short Eye UnBlocked Counter length to check 0.1 inches"
+"N115","","","Unnormal Short Eye UnBlocked Counter"
+"N116","","","Unnormal Short Product Counter length to check 0.1 inches (after off delay and one shot)"
+"N117","","","Unnormal Short Product Counter (after off delay and one shot)"
+"N2000","","","Cross seal set point- actual  signed decimal"
+"N2001","","","Side seal set point - actual signed decimal"
+"D2","","","Cross seal temp before adjustment"
+"D3","","","Automode time out in seconds"
+"D5","","","Check r12 for not a number"
+"D6","","","Check r22 for not a number"
+"D37","","","Run Through run out time ms"
+"D40","","","Register used to determine if a set point has changed"
+"D41","","","Register to determine if a recipe notes have changed"
+"D42","","","Register to determine if a STS parameter has changed"
+"D43","","","Buffer register to determine is a STS parameter has changed"
+"D102","","","Discharge conv freq drive profile set up.  Number of 0.0025 seconds delay before motor starts moving from stopped"
+"D112","","","Infeed conv freq drive profile set up.  Number of 0.0025 seconds delay before motor starts moving from stopped"
+"D121","","","simulate eye blocked"
+"D122","","","simulate gap between packages"
+"D127","","","hole burner pulse time in milliseconds"
+"D147","","","register used to meter hole burner signal based on infeed conveyor movement"
+"D157","","","Time in milliseconds after discharge vfd run signal turns off before initiating sealing (adjusted for advance / delay parameter)"
+"D170","","","Auto seal dwell timer set point ms"
+"D171","","","Bump Discharge conveyor timer setpoint"
+"D172","","","Wait for seal head to open timer setpoint"
+"D730","","","sim cross seal override and safety sensors"
+"D731","","","register used to simulate registration eye"
+"D1730","","","Poly mode timer set point"
+"D1881","","","To HMI , hiw many ms it took to close seal head. information on seal advance parameter help screen"
+"D2005","","","If ""pkg trail % before seal close"" is more than 100, this is the timer set point for cross seal delay"
+"D2065","","","Cross seal restriction timer set point buffer"
+"D2067","","","Side seal watchdog tmer preset setpoint "
+"D2072","","","resettable counts"
+"D2104","","","Reg Mark offset timer pre"
+"D2105","","","Pkg trail offset timer pre"
+"D2106","","","Current Data - Rear Bag Length 0.1 inches"
+"D2139","","","number of jams in arow = 1 when not in auto"
+"D2215","","","maint mode code"
+"D2229","","","Cross Seal Heater Power 100 for 30s, 150 for 17/22","STS Parameter"
+"D2251","","","non resetable hours"
+"D2253","","","non resetable counts"
+"D2265","","","cross eal heater output timer time base"
+"D2270","","","eye buffer"
+"R0","","","R0 is how far in inches the belt travels at speed set point each 2.5ms (interrupt time)"
+"R1","","","R1 is the rounded number of interrupt scans needed to accel or decel fully"
+"R2","","","R2 is how much to add to velocity each interrupt scan during accel or decel "
+"R4","","","Disch Conv max velocity target (movement per 0.0025 seconds)"
+"R5","","","conveyor ramp up or down time from 100hz seconds"
+"R6","","","Disch Conv ramped velocity  (movement per 0.0025 seconds)"
+"R7","","","Disch Ramp down time in ms if conveyor vfd shut off now"
+"R8","","","Disch Ramp down distance if conveyor vfd shut off now"
+"R10","","","Register to simulate disch conv movement. Counts movement delay time followed by ramp up or down "
+"R11","","","Discharge Conveyor Movement ( Encoder simuation)"
+"R12","","","Keep Track of Discharge conv movement"
+"R14","","","Infeed Conv max velocity target (movement per 0.0025 seconds)"
+"R16","","","Infeed Conv ramped velocity  (movement per 0.0025 seconds)"
+"R20","","","Register to simulate infeed conv movement. Counts movement delay time followed by ramp up or down "
+"R21","","","Keep track of each 0.1 inch movement of infeed conveyor"
+"R22","",""," Accumulating movement of infeed conveyor"
+"R23","","","discharge advance register"
+"R25","","","Move rear of package to seal position register"
+"R26","","","After how much movement to shut off infeed conveyor to ramp to 20 inches for checking calibration"
+"R27","","","discharge conv inches movement register for discharge advance"
+"R28","","","Discharge advance inches to turn on disch conv to get specified move length after ramp down"
+"R30","","","1/10 inch movement calculated by plc"
+"R31","","","1/10 inch measured by test encoder"
+"R32","","","Number of Test Encoder Pulses per inch from HMI"
+"R36","","","Calculate the ratio of measured distance by test encoder to plc expected distance (mult by drive max freq to calibrate drive)"
+"R49","","","Number of 0.1 inches between eye and front of jaw"
+"R59","","","Small amount to add to pkg length for one shot mode"
+"R60","","","Number of Packages in current bundle"
+"R61","","","One Shot Seal Package Length Run Out"
+"R62","","","One Shot Move Distance"
+"R63","","","Pkg Trail Move to Position not corrected for ramp down distance"
+"R64","","","Pkg Trail Move to Position corrected for ramp down distance"
+"R65","","","Infeed advance distance to travel to"
+"R66","","","Ramp down time in ms"
+"R72","","","Ramp time in ms after vfd is shut off"
+"R77","","","Disch conv movement in 0.1 inches before shutting off for one shot mode using position rather than time"
+"R80","","","Maximum stage distance in 0.1 inches before jaw based on distance from eye to seal bar and ramp down distance"
+"R81","","","How far to run product with infeed and disch conv from where rear of the prod went past the point where the next prod can stage"
+"R83","","","How far to run disch conv from where rear of the prod went past the point of hand off from infeed to disch conv adjusted for ramp down dist"
+"R85","","","How far does product run while still on infeed conveyor after product clears stage point"
+"R99","","","Package Trail Distance from infeed side of seal jaw"
+"R107","","","Registration offset in inches"
+"R112","","","Calculate base offset from eye to place registration mark"
+"R113","","","Where to shut off disch conveyor to place registration mark in relation to registrstion eye (inches) to place film for sealing"
+"R115","","","Registration mark distance from registration eye  A"
+"R116","","","Registration mark distance from registration eye  B"
+"R119","","","Registered film imprint length real number for checking registration mark not seen"
+"R121","","","Seal Advance / Delay seconds"
+"R122","","","Seal advance milli seconds"
+"R132","","","Additional distance in 0.1 inches to allow rear of product to travel to loosen the products within a multipack (positive value)"
+"R133","","","Additional amount in 0.1 inches to start disch conv later to tighten the products within a multipack "
+"R150","","","seconds it will take dsch conv to come up to speed"
+"R151","","","Conv ramp down distance from full speed inches"
+"R152","","","How far in 0.1 inches will infeed conv ramp down at current speed"
+"R153","","","How far in 0.1 inches will disch conv ramp down at current speed"
+"R275","","","Minimum gap length due to off delay parameter setting"
+"R276","","","Minimum gap length due to stage target and ramp down (package clears rown of infeed conv roller"
+"R277","","","Minimum gap length if product will transfer to disch conv if infeed stages with 40% of product still contacting infeed conveyor belt"
+"R278","","","Minimum gap length due to stage target and ramp down (package clears rown of infeed conv roller or (off delay +0.2) which ever is larger"
+"R279","","","Min gap length if prod will transfer to disch conv if infeed stages with 40% of prod contacting infd belt or (off del+0.2) which ever is larger"
+"R1764","","","To HMI Actual Film Feet Counted"
+"T1","","","Display Dave Face on HMI when going into auto"
+"T2","","","Cycle Timer","T2"
+"T2.Acc","","","TA2"
+"T3","","","E-Stop or Guard out timer","Display message if reset button pressed and MCR does not come on"
+"T5","","","Pulse Cross Seal Heater SSR"
+"T6","","","Calculate Speed Timer","T6"
+"T6.Acc","","","TA6"
+"T7","","","Film Loop Timer","T7"
+"T8","","","check for vfd fault"
+"T9","","","Display jam run through msg for 3 seconds"
+"T10","","","Start Up Reset Timer","T10"
+"T11","","","Delay After override switch closes before alowing  jog","T11"
+"T12","","","Fim Broken Timer","T12"
+"T14.Acc","","","TA16"
+"T15","","","After Registration Mark Timer","T15"
+"T15.Acc","","","TA15"
+"T16","","","Package Trailer Timer","T16"
+"T16.Acc","","","TA16"
+"T17","","","Slow Hole punch Timer","T17"
+"T18","","","Reset jam check with auto button hold"
+"T19","","","Delay to allow closing conveyor to close"
+"T20","","","Seal Dwell Time","T20"
+"T21","","","Allow Cross Seal to Open Delay","T21"
+"T22","","","Cross Seal Delay Timer (Times when % package trail timer before seal close is more than 100%)","T22"
+"T23","","","Package Advance Timer","T23"
+"T24","","","Package Lead if Conv Stops Timer","T24"
+"T25","","","Side Seal Watchdog Timer","T25"
+"T27","","","Automode time out minute timer","T27"
+"T28","","","Check that closing conveyor retract switch went off"
+"T29","","","measure closing conveyor move off closed switch time ms"
+"T30","","","Manual Cross Seal Timer","T30"
+"T31","","","Timer to measure how long it takes to close seal jaw"
+"T32","","","Hour Counter","T32"
+"T37","","","Run Through Mode TIme to Run Disch Conveyor after eye blocked","T37"
+"T41","","","Time Between Packages in the bundle","T41"
+"T41.Acc","","","TA41"
+"T42","","","Time delay before opening cross seal","T42"
+"T43","","","Time to open cross seal","T43"
+"T50","","","Delay cycle stop with auto button","T50"
+"T52","","","Time That Infeed Conv was off before activating infeed advance","T52"
+"T53","","","Seal Eye On Delay","T53"
+"T54","","","Seal Eye Off Delay","T54"
+"T60","","","Jog One Shot Timer","T60"
+"T63","","","Closing conv switch timer","T77"
+"T70","","","2 Seconds Delay After Power Up"
+"T72","","","Reset counts delay","T72"
+"T73","","","Check that override prox went off"
+"T75","","","Override prox did not come on or jaw did not close check timer"
+"T77","","","Closing conv switch timer","T77"
+"T78","","","Check to see if closing conv extend switch came on"
+"T79","","","Check to see if closing conveyor extend switch went off"
+"T80","","","Check that cross seal microswitches went off (both)"
+"T81","","","Check that cross seal microswitches went off (right)"
+"T82","","","Check that cross seal microswitches went off (Left)"
+"T84","","","Check that neither side clamp sensor went back on"
+"T85","","","Check that right side clamp sensor went back on"
+"T86","","","Check that operator left side clamp sensor went back on"
+"T88","","","Stop conveyors after reaction test"
+"T100","","","poly mode air blast to separate film timer","T100"
+"T101","","","poly mode timer lsw","T101"
+"T105","","","allow cross seal to open in manual seal","T105"
+"T106","","","Package Advance After Manual Cross Seal Timer","T106"
+"T120","","","Closing conv. head position sensor fault timer"
+"T122","","","wait until checking for seal height height check"
+"T124","","","Fast Hole Burner Engage Time","T124"
+"T127","","","Hole burner timer, pulse off film feed switch"
+"T130","","","Cross Seal Low Temp Timer","T130"
+"T131","","","Cross Seal High Temp Timer","T131"
+"T132","","","Side Seal Low Temp Timer","T132"
+"T133","","","Side Seal High Temp Timer","T133"
+"T140","","","Delay for Therm Coup Fault","T140"
+"T141","","","TC Card Self Test Fail Timer"
+"T142","","","TC Card Missing 24 Volts Fault Timer"
+"T157","","","Time after discharge vfd shuts off before sealing initiated"
+"T161","","","Reset HMI Screen command back to zero timer"
+"T165","","","Wait until taken out of auto before doing the SD Card write"
+"T166","","","Measure how many ms to close seal jaw"
+"T167","","","Timer to keep traclk of pkg trailand ramp down (set point adjusted for seal advance or delay)"
+"T168","","","Delay before seal timer"
+"T169","","","Reg mark offset ramp down"
+"T170","","","Auto seal dwell timer"
+"T171","","","Discharge Advance ramp down timer"
+"T172","","","Wait for seal head to open timer"
+"T174","","","Conv calibration check vfd pulse run signal timer"
+"T175","","","Timer to chage conv speed and soft start for infeed conveyor 20 inch calibration check run"
+"T176","","","Timer to chage conv speed and soft start for discharge conveyor 20 inch calibration check run"
+"T177","","","Change conv speed for 20 inch distance check"
+"T178","","","Flash simulated auto mode indicator timer"
+"T180","","","drive fault debounce timer"
+"T181","","","cross seak tc ft debounce timer"
+"T182","","","side seak tc ft debounce timer"
+"T186","","","inhibit encoder after drive shuts off and ramps down"
+"T190","","","Timer to cycle through modbus messages"
+"T200","","","Wait for gate eye on delay before opening gate","T200"
+"T202","","","Wait for gate eye to clear before closing gate","T202"
+"T205","","","T205"
+"T205.Acc","","","TA205"
+"T207","","","T207"
+"T210","","","product length","T210"
+"T211","","","PLC Battery Low screen popup timer","T211"
+"T211.Acc","","","TA211"
+"T212","","","4 hour low PLC batt pop up timer 1","T212"
+"T227","","","Timer for conveyor movement test routine"
+"T248","","","simulate closing conveyor actuate prox"
+"T249","","","simulate closing conveyor actuate prox"
+"CT0.Acc","","","CTA0"
+"CT1","","","Count Jams in a row"
+"CT10","","","Auto mode on/off counter","CT10"
+"CT10.Acc","","","CTA10"
+"CT20.Acc","","","CTA20"
+"CT24","","","Automode time out"
+"CT24.Done","","","Automode time out"
+"CT100","","","Counter to scan through modbus messages"
+"UDT7","","","time to set plc clock from hmi"
+"UDT7.Year","","","time to set plc clock from hmi"
+"UDT7.Month","","","time to set plc clock from hmi"
+"UDT7.Day","","","time to set plc clock from hmi"
+"UDT7.Hour","","","time to set plc clock from hmi"
+"UDT7.Minute","","","time to set plc clock from hmi"
+"UDT7.Second","","","time to set plc clock from hmi"
+"PT0","","","First bit of package track bit shift register"
+"PT100","","","1st bit of the discharge package track bit shift register"
+"PT210","","","Bit value for package tracking shift register"
+"PT215","","","Count out one shot package length and populate package track shift register"
+"FB1","","","E-Stop or Guard activated latched in"
+"FB2","","","Jam Detected","C221"
+"FB3","","","Scrap Tail Broken Fault"
+"FB4","","","Cross Seal Thermocouple Fault"
+"FB5","","","Side Seal Thermocouple Fault"
+"FB6","","","Closing conveyor extend swtch did not come on"
+"FB7","","","closing conv extend sensor did not go off"
+"FB8","","","ClosingConv SealHead Open/Close ProxSwitch","     Out of Adjustment / Multiple Pulses"
+"FB10","","","closing conveyor retract sensor fault","C124"
+"FB11","","","Closing conv retracted switch did not go off when closing conv retract valve is off"
+"FB12","","","Closing conv head open prox failed on - center seal is too high"
+"FB14","","","Automode time out"
+"FB15","","","Freq Drive Fault","C33"
+"FB16","","","Dancer bar fault"
+"FB20","","","Product Length Time Out","Fault"
+"FB21","","","Registration Mark Not Seen"
+"FB22","","","Cross Seal Low Temperature","C130"
+"FB23","","","Cross Seal High Temperature","C131"
+"FB24","","","Side Seal Low Temperature","C132"
+"FB25","","","Side Seal High Temperature","C133"
+"FB30","","","Cross Seal Override Prox did not go off"
+"FB31","","","Cross Seal Did Not Close Fault"
+"FB32","","","Neither Cross Seal Safety Switch went off fault"
+"FB33","","","Left Cross Seal Safety Switch did not go off fault"
+"FB34","","","Right Cross Seal Safety Switch did not go off fault"
+"FB35","","","Neither Film Clamp Sensor Came On Flt"
+"FB36","","","Right Film Clamp Sensor Did Not Come On Flt"
+"FB37","","","Left Film Clamp Sensor Did Not Come On Flt"
+"UD0","l","","@IntSerModbusClient"
+#END
+
